@@ -1,0 +1,100 @@
+.Home_first_top_section{
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(8,1fr);
+    margin: auto;
+    margin-top: 5%;
+    gap: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home_first_top_section  div {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.Home_first_top_section  div:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Home_first_top_section  div img{
+    width: 90%;
+    margin: auto;
+}
+
+.Home_first_top_section  div > p:nth-child(2){
+    border-top: 1px solid rgb(48, 46, 46);
+    font-size: 100%;
+    font-weight: 500;
+    margin: 0% 2%;
+    padding: 2% 1% 1% 1%;
+}
+
+.Home_first_top_section  div > p:last-child{
+    font-size: 80%;
+    margin: 0%;
+    padding: 1%;
+    font-weight: 500;
+    color: rgb(180, 6, 6);
+}
+
+@media all and (min-width: 851px) and (max-width: 1000px){
+
+    .Home_first_top_section  div img{
+        width: 80%;
+    }
+
+    .Home_first_top_section  div > p:nth-child(2){
+        font-size: 90%;
+    }
+
+    .Home_first_top_section  div > p:last-child{
+        font-size: 60%;
+        font-weight: 600;
+    }
+
+}
+
+@media all and (min-width: 551px) and (max-width: 850px){
+    .Home_first_top_section{
+        grid-template-columns: repeat(4,1fr);
+        gap: 3%;
+        margin-bottom: 10%;
+        margin-top: 15%;
+    }
+
+    .Home_first_top_section  div img{
+        width: 80%;
+        margin: auto;
+    }
+
+    .Home_first_top_section  div > p:last-child{
+        font-size: 60%;
+        font-weight: 600;
+    }
+
+}
+
+@media all and (min-width: 280px) and (max-width: 550px){
+    .Home_first_top_section{
+        grid-template-columns: repeat(3,1fr);
+        gap: 3%;
+        margin-bottom: 20%;
+        margin-top: 20%;
+    }
+
+    .Home_first_top_section  div img{
+        width: 80%;
+        margin: auto;
+    }
+
+    .Home_first_top_section  div > p:last-child{
+        font-size: 60%;
+        font-weight: 600;
+    }
+}
+

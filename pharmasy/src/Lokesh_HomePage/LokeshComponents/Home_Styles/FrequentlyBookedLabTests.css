@@ -1,0 +1,225 @@
+
+.Home_FrequentlyBookedLabTests_Container > p{
+    font-size: 200%;
+    display: block;
+    text-align: left;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    font-weight: 500;
+    margin-top: 5%;
+}
+.Home_FrequentlyBookedLabTests_Box{
+    display: grid;
+    width: 99%;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.5%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.Home_FrequentlyBookedLabTests_Box > div{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: grid;
+    width: 95%;
+    height: 300px;
+    padding: 5%;
+    grid-template-columns: repeat(1,1fr);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.Home_FrequentlyBookedLabTests_Box > div:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.3s ease-in;
+}
+
+.Home_FrequentlyBookedLabTests_Box > div:first-child,
+.Home_FrequentlyBookedLabTests_Box > div:nth-child(3){
+    background-color: rgb(223, 239, 250);
+}
+
+
+.Home_FrequentlyBookedLabTests_Box > div:nth-child(2),
+.Home_FrequentlyBookedLabTests_Box > div:last-child{
+    background-color: rgb(251, 244, 235);
+}
+
+.Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div{
+    width: 30%;
+}
+
+.Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div > img{
+    width: 100%;
+}
+
+.Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:first-child{
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin: 0px;
+    color: rgb(83, 82, 82);
+}
+
+.Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:last-child{
+    font-size: 125%;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(2){
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.Home_FrequentlyBookedLabTests_Box_Item > div:first-child > button{
+    text-decoration: none;
+    border: none;
+    font-size: 80%;
+    padding: 2%;
+    background-color: rgb(246, 44, 132);
+    color: white;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+
+@media all and (min-width: 801px) and (max-width: 1000px){
+    
+
+    .Home_FrequentlyBookedLabTests_Container > p{
+        font-size: 180%;
+        margin-top: 8%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box{
+        gap: 1%;
+        margin-bottom: 7%;
+    }
+    .Home_FrequentlyBookedLabTests_Box > div{
+        height: 250px;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:first-child{
+        font-size: 100%;
+        font-weight: bold;
+        text-decoration: line-through;
+        margin: 0px;
+        color: rgb(83, 82, 82);
+    }
+
+    .Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:last-child{
+        font-size: 110%;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(2){
+        font-size: 100%;
+        font-weight: 700;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(3){
+        font-size: 12px;
+    }
+}
+
+
+@media all and (min-width: 471px) and (max-width: 800px){
+    .Home_FrequentlyBookedLabTests_Box{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5%;
+        margin: auto;
+    }
+
+    .Home_FrequentlyBookedLabTests_Container > p{
+        font-size: 150%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box{
+        gap: 1%;
+        margin-bottom: 7%;
+    }
+    .Home_FrequentlyBookedLabTests_Box > div{
+        height: 250px;
+        margin-bottom: 5%;
+    }
+    
+    .Home_FrequentlyBookedLabTests_Box > div:nth-child(2),
+    .Home_FrequentlyBookedLabTests_Box > div:nth-child(3){
+        background-color: rgb(223, 239, 250);
+    }
+    
+    .Home_FrequentlyBookedLabTests_Box > div:first-child,
+    .Home_FrequentlyBookedLabTests_Box > div:last-child{
+        background-color: rgb(251, 244, 235);
+    }
+
+    .Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:first-child{
+        font-size: 100%;
+        margin-top: 5%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:last-child{
+        font-size: 110%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(2){
+        font-size: 100%;
+        margin-top: 5%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(3){
+        font-size: 12px;
+    }
+
+}
+
+@media all and (min-width: 280px) and (max-width: 470px){
+
+    .Home_FrequentlyBookedLabTests_Container > p{
+        font-size: 150%;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box{
+        gap: 1%;
+        width: 80%;
+        margin-bottom: 15%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Home_FrequentlyBookedLabTests_Box > div{
+        height: 250px;
+        margin-bottom: 5%;
+    }
+    
+    .Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:first-child{
+        font-size: 100%;
+        margin-top: 5%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box .Home_FrequentlyBookedLabTests_Bottom_Box > div:first-child > p:last-child{
+        font-size: 110%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(2){
+        font-size: 100%;
+        margin-top: 5%;
+    }
+
+    .Home_FrequentlyBookedLabTests_Box_Item > div:nth-child(3){
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,25 @@
+#card-slide-div{
+   
+
+
+width: 100%;
+white-space:nowrap;
+display: flex;
+gap: 20px;
+overflow: hidden;
+
+
+/*     
+        overflow: "scroll",
+      
+       width: "100%"
+       overflowX: "auto",
+       overflowY: "hidden",
+       whiteSpace: "nowrap",
+    
+       display:"flex",
+       gap:"20px", */
+       
+      
+
+}

@@ -1,0 +1,68 @@
+.descriptionWrapper{
+    max-width: 90%;
+    margin: auto;
+    color: #4f585e;
+}
+
+.descLinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.descLinks>h3{
+    font-size: 100%;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 5px;
+}
+.descLinks > span > a{
+    font-size: 100%;
+    color: #2e2f2f;
+    line-height: 1.5;
+}
+.descLinks>span a:hover{
+    text-decoration: none;
+    color: #10847e;
+}
+
+.descLinks>span:after {
+    content: "|";
+    color: #4f585e;
+    margin: 0 5px;
+}
+.descLinks>span:last-child:after {
+    content: "";
+    color: #4f585e;
+    margin: 0 5px;
+}
+.descH1{
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.descH2{
+    font-size: 12px;
+    margin: 10px 0;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.TextDiv{
+    text-align:left;
+    font-size: 12px;
+}
+
+.TextDiv a{
+    color: #10847e;
+    text-decoration: underline;
+}
+
+.descP{
+    font-size: 100%;
+}
