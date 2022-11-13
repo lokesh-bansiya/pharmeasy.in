@@ -1,0 +1,113 @@
+.lokesh_home_navbar{
+    display: block;
+    width: 100%;
+}
+
+.lokesh_home_navbar > div:first-child{
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 1.6%;
+}
+
+.lokesh_home_navbar > div:last-child{
+    display: block;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    padding: 1.6%;
+}
+
+.lokesh_home_navbar > div:first-child .lokesh_home_nav_first-section{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.lokesh_home_navbar > div:first-child .lokesh_home_nav_first-section  div{
+    font-size: 95%;
+    font-weight: 500;
+}
+
+.lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-left: 0%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section  div{
+    font-size: 95%;
+    font-weight: 500;
+}
+.lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section > div:first-child{
+    font-size: 95%;
+    color: gray;
+    font-weight: 500;
+} 
+
+.lokesh_home_navbar > div:first-child .lokesh_home_nav_first-section  div:hover,
+.lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section  div:hover{
+    color: red;
+}
+.mainNavbarBox{
+   display: none;
+}
+
+
+@media all and (min-width: 951px) and (max-width: 1200px){
+    
+        .lokesh_home_first-section-grid{
+            width: 90%;
+            gap: 2%;
+        }
+        
+        .lokesh_home_first-section-grid > div > div:last-child{
+            font-size: 90%;
+        }
+        
+        .lokesh_home_first-section-grid > div > div > img{
+            width: 100%;
+        }
+        
+        .lokesh_home_first-section-grid > div:last-child > div:first-child{
+            width: 100%;
+        }
+        
+        .lokesh_home_first-section-grid > div:last-child > div:last-child{
+            width: 70%;
+            padding: 0;
+        }
+}    
+
+@media all and (min-width: 651px) and (max-width: 950px){
+    .lokesh_home_navbar > div:first-child .lokesh_home_nav_first-section{
+        width: 90%;
+    }
+
+    .lokesh_home_navbar > div:first-child .lokesh_home_nav_first-section  div{
+        font-size: 70%;
+    }
+
+    .lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section{
+        width: 80%;
+        margin: auto;
+        margin-left: 1%;
+    }
+
+    .lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section  div{
+        width: 100%;
+    }
+    .lokesh_home_navbar > div:last-child .lokesh_home_nav_second-section  div:first-child{
+        font-size: 60%;
+    }
+}
+
+@media all and (min-width: 280px) and (max-width: 650px){
+
+    .lokesh_home_navbar{
+        display: none;
+    }
+}

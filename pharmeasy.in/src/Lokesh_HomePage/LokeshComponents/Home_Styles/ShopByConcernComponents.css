@@ -1,0 +1,121 @@
+.ShopByConcern-Container{
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.h1-tag-size{
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.ShopByConcern-Container > p{
+    font-size: 120%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.ShopByConcern-Box{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 3%;
+}
+
+.ShopByConcern-Box > div{
+    display: block;
+    padding: 2%;
+    text-align: center;
+}
+
+.ShopByConcern-Box > div:hover{
+    cursor: pointer;
+}
+
+.ShopByConcern-Box > div > img{
+    width: 90%;
+    margin: 2%;
+    border-radius: 50%;
+}
+
+.ShopByConcern-Box > div > img:hover{
+    transform: scale(1.06);
+    transition: 0.3s ease-in;
+    border: 0.3px solid black;
+
+}
+
+.ShopByConcern-Box > div > p{
+    font-weight: bold;
+    margin-top: 5%;
+    color: rgb(46, 45, 45);
+}
+
+@media all and (min-width: 851px) and (max-width: 1200px){
+
+    .h1-tag-size{
+        font-size: 180%;
+        font-weight: 500;
+        margin-top: 10%;
+    }
+
+    .ShopByConcern-Box > div{
+        display: block;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .ShopByConcern-Box > div > p{
+        font-weight: 500;
+    }
+}
+
+@media all and (min-width: 551px) and (max-width: 850px){
+       
+    .ShopByConcern-Container > p{
+        font-size: 130%;
+        margin-top: 3%;
+    }
+
+    .ShopByConcern-Box > div{
+        display: block;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .ShopByConcern-Box > div > p{
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 280px) and (max-width: 550px){
+    
+    .ShopByConcern-Box{
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(4,1fr);
+        padding-bottom: 5%;
+        gap: 3%;
+    }
+
+    .ShopByConcern-Container > p{
+        font-size: 100%;
+    }
+
+    .ShopByConcern-Box > div{
+        display: block;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    .ShopByConcern-Box > div > img{
+        width: 80%;
+        border: 0.4px solid black;
+    }
+
+    .ShopByConcern-Box > div > p{
+        font-weight: 600;
+        font-size: 12px;
+    }
+}

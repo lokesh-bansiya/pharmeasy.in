@@ -1,0 +1,171 @@
+
+.maindiv{
+ 
+    color: rgb(79,88,94);
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: auto;
+  }
+  .top_1{
+    
+    padding-bottom: 2rem;
+    font-size: 15px;
+    padding-top: 2rem;
+  
+  }
+  .order_div{
+   
+    /* border: 1px solid red; */
+    display: flex;
+    gap:100px
+  }
+  
+  
+  
+  .right_div{
+   
+    margin-top: 2rem;
+  
+  }
+  .right_div>div{
+   
+    display: flex;
+    color: rgb(79,88,94);
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 5px;
+    height: 9vh;
+    width: 50vh;
+    margin-top: 1.4rem;
+    font-weight: 600;
+    
+    
+  }
+  .right_div>div>p{
+   
+    /* color: red; */
+    padding: 0.7rem;
+  
+  }
+  .imgicon{
+    width: 5.5vh;
+    height: 5vh;
+    margin: 0.6rem;
+   
+  }
+  
+  .slider_2{
+  
+    margin-top: 2rem;
+  
+  }
+  
+  .faq{
+    margin-top: 3rem;
+  
+  }
+  .bottom_1{
+    display: flex;
+    margin-top: 2rem;
+    padding: 6rem;
+    gap:40px;
+    border: 1px solid rgb(236, 232, 232);
+  
+  }
+  .bottom_2{
+    display: flex;
+    margin-top: 5rem;
+    gap:70px;
+    margin-left: 10rem;
+  
+  }
+  .bottom_21>img{
+    width: 35vh;
+  
+  }
+  .bottom_22>div{
+    display: flex;
+    gap:20px
+  }
+  .bottom_22>p{
+    font-size: 25px;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+  .bottom_22>div>div>a>img{
+   width: 25vh;
+  
+  }
+  .left_div2{
+    /* border: 1px solid black; */
+    /* color:white; */
+    background-color: rgb(63,132,126);
+    border-radius: 0.5rem;
+    height: 29vh;
+    width: 98vh;
+    box-sizing: border-box;
+    padding: 1.5rem;
+  }
+  .flex_1{
+    display: flex;
+    gap:50px;
+    font-size: 0.8rem;
+    
+    
+  }
+  .flex_1>p{
+    color: white;
+  }
+  .select{
+    /* width: 55vh; */
+    color: black;
+    display: flex;
+    /* font-size: 1.4rem; */
+    /* border: 1px solid red; */
+    /* background-color: white; */
+    gap: 1px;
+    
+  }
+  .select>input{
+   width: 25vh;
+   text-align: center;
+   border-radius: 4px;
+  }
+  h1{
+   padding-bottom: 1rem;
+  }
+  h4{
+    padding-top: 2rem;
+    padding-bottom: 0.8rem;
+  }
+  .slick-next {
+    right: 50px; 
+  }
+  
+  .slider_1_div{
+    padding: 0.5rem;
+  }
+  .slider_img{
+    width: 10vh;
+    height: 10vh;
+  }
+  .slider_1_div_flex{
+    display: flex;
+    gap:15px;
+    font-weight: 600;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 5px;
+    padding: 1rem;
+  
+  }
+  .bottom_1_img{
+    width: 7vh;
+   
+  }
+  .bottom_1_img1{
+    width: 8vh;
+  }
+  .slider_2_div>img{
+    padding: 0.5rem;
+    width: 165vh;
+    height: 40vh;
+  }

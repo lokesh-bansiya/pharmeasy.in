@@ -1,0 +1,3426 @@
+{
+  "posts": [],
+  "homePage": {
+    "homePageData": {
+      "logo": "https://cdn.pharmeasy.in/cms/lp_logo.png",
+      "programId": 52,
+      "userStatus": 0,
+      "url": "https://pharmeasy.in/plus/redirect/landing?source=tagline",
+      "identifier": "plus/redirect/landing?source=tagline",
+      "expiresAt": null,
+      "tagline": "Save flat <strong>5%</strong> extra on medicines & enjoy <strong>FREE</strong> delivery with PLUS membership",
+      "taglineCTAText": {
+        "url": "https://pharmeasy.in/plus/redirect/landing?source=taglineCTAText",
+        "identifier": "plus/redirect/landing?source=taglineCTAText"
+      },
+      "faqs": [
+        {
+          "question": "What are the benefits of PharmEasy Plus?",
+          "answer": "Plus members get extra 5% cashback on medicine/healthcare orders with free delivery and extra 10% cashback on diagnostics orders along with free doctor teleconsultations. Also, you won't be charged any convenience fees for pay on delivery."
+        },
+        {
+          "question": "How long is my PharmEasy Plus membership valid for?",
+          "answer": "Depending on the plan you choose, your PharmEasy Plus membership is valid for 3 months or 6 months from the date of purchase of the program."
+        },
+        {
+          "question": "When will I get the cashback?",
+          "answer": "Cashback will be credited into your PharmEasy wallet within 48 hours of order delivery."
+        },
+        {
+          "question": "What is the validity of the cashback?",
+          "answer": "Cashback earned through the PharmEasy Plus Membership will not have any expiry."
+        },
+        {
+          "question": "Is there a cap on the maximum amount that can be earned through the 5% cashback on Medicine/Healthcare orders?",
+          "answer": "Yes, based on the value of your order, a 5% cashback up to ₹200 will be credited for Medicine/Healthcare orders."
+        },
+        {
+          "question": "Is there a cap on the maximum amount that can be earned through the 10% cashback on Diagnostic Tests?",
+          "answer": "Yes, based on the value of your order, a 10% cashback up to ₹200 will be credited for Diagnostic Test orders."
+        },
+        {
+          "question": "Is free delivery applicable for all orders?",
+          "answer": "For orders placed during your membership period, free delivery is applicable on orders above ₹199 for 50 orders when opting for standard delivery. For priority delivery the additional delivery fee will be applicable. However, if your order weighs more than 1 Kgs, standard delivery charges based on weight will be applicable."
+        },
+        {
+          "question": "Can I cancel my PharmEasy Plus Membership?",
+          "answer": "No. Once enrolled, you will not be able to cancel your PharmEasy Plus membership."
+        },
+        {
+          "question": "Can I renew my PharmEasy Plus membership?",
+          "answer": "Yes, once your existing membership has expired, you will see an option to buy the membership again if you are eligible. However, PharmEasy Plus membership prices are subject to change."
+        },
+        {
+          "question": "Can I use other discounts/coupons along with the PharmEasy Plus Cashback?",
+          "answer": "Yes, you can use any other discounts/coupons along with the PharmEasy Plus membership."
+        },
+        {
+          "question": "How do I avail PharmEasy Plus cashback?",
+          "answer": "Cashback will be auto-applied on all Medicine, Healthcare & Diagnostics orders. No need to apply any coupon code."
+        },
+        {
+          "question": "Are there any restrictions on PharmEasy Wallet usage?",
+          "answer": "No, there are no restrictions on the usage of your PharmEasy wallet. You can use it in full against any of your orders."
+        },
+        {
+          "question": "Is there a limit on the number of orders I can get PharmEasy Plus Cashback on?",
+          "answer": "Yes, this benefit is available on a maximum of 50 medicine/healthcare products orders and 50 lab tests booked during your membership."
+        },
+        {
+          "question": "How many Doctor Consultations can I avail through PharmEasy Plus Membership?",
+          "answer": "As a Plus member, you can avail 20 free doctor consultations during your membership period. Feel free to get in touch with our doctors whenever you are in need. We strongly advise that you take any medication only after consulting with a registered medical practitioner."
+        },
+        {
+          "question": "What’s the process for consulting the doctor?",
+          "answer": "You can submit a request for doctor consultation after getting enrolled from your membership details page."
+        },
+        {
+          "question": "Can I get a faster delivery through PharmEasy Plus?",
+          "answer": "While we would love to provide faster delivery, this option is not available under the PharmEasy Plus membership right now."
+        },
+        {
+          "question": "Can I buy PharmEasy Plus via COD?",
+          "answer": "Yes, you can buy the PharmEasy Plus membership via COD only if you buy it along with your medicines or healthcare products order. For COD order, first add your medicine or healthcare items to cart and then select the Plus membership."
+        },
+        {
+          "question": "Can I avail the cashback on Diagnostics tests in all cities?",
+          "answer": "We are expanding rapidly. For now, you can avail this cashback only if our diagnostic services are available in your city."
+        },
+        {
+          "question": "Are there any products where plus benefits are not eligible?",
+          "answer": "Yes, cashback benefits are not applicable on baby food products that cater to infants under the age of 1."
+        }
+      ],
+      "details": {
+        "title": "Subscribe now to get exclusive benefits",
+        "list": [
+          {
+            "icon": "https://club-cdn.pharmeasy.in/production/ui/med_cb.svg",
+            "title": "5% Extra Cashback",
+            "subtext": "Applicable on medicine & healthcare orders",
+            "tag": "main"
+          },
+          {
+            "icon": "https://club-cdn.pharmeasy.in/production/ui/delivery.svg",
+            "title": "FREE Delivery",
+            "subtext": "Enjoy free delivery on medicine and healthcare orders above ₹199",
+            "tag": "main"
+          },
+          {
+            "icon": "https://club-cdn.pharmeasy.in/production/ui/diag_cb.svg",
+            "title": "10%  Extra Cashback",
+            "subtext": "Applicable on diagnostic tests",
+            "tag": "main"
+          },
+          {
+            "icon": "https://club-cdn.pharmeasy.in/production/ui/cash_handling.svg",
+            "title": "Zero Convenience Fees",
+            "subtext": "Pay on delivery with no extra charges",
+            "tag": "additional"
+          },
+          {
+            "icon": "https://club-cdn.pharmeasy.in/production/ui/doc_consult.svg",
+            "title": "Free Doctor Teleconsultation",
+            "subtext": "Consult with a qualified doctor whenever you need",
+            "tag": "additional"
+          }
+        ]
+      },
+      "homeTagline": "Enjoy benefits worth <strong>₹4400</strong>",
+      "testimonials": [
+        {
+          "name": "Rahul Singh",
+          "tagline": "Saved <strong>₹3782<strong> in 6 months",
+          "content": "I must admit that I’ve made huge savings since I became a member of Pharmeasy Plus. There’s not just free deliveries but extra cashback on every order too! It makes ordering monthly medicines a truly satisfying experience.",
+          "icon": "https://club-cdn.pharmeasy.in/production/ui/med_cb.svg",
+          "image": ""
+        },
+        {
+          "name": "Preeti Sharma",
+          "tagline": "Saved <strong>₹2142<strong> in 3 months",
+          "content": "I feel like a premium customer as a PharmEasy plus member. All the extra discounts, free deliveries, it can’t get any better than this! Also, since lockdown, I didn’t have to step out for my medical and healthcare needs anymore.",
+          "icon": "https://club-cdn.pharmeasy.in/production/ui/med_cb.svg",
+          "image": ""
+        },
+        {
+          "name": "Ashok Bhagia",
+          "tagline": "Saved <strong>₹1527<strong> in 3 months",
+          "content": "With the ongoing pandemic, online doctor consultation is the need of the hour. I’ve enjoyed the benefit of FREE doctor consultations with my Plus membership. I’ve made extra savings on all my medicine orders & lab test bookings too.",
+          "icon": "https://club-cdn.pharmeasy.in/production/ui/med_cb.svg",
+          "image": ""
+        }
+      ],
+      "calculations": [
+        {
+          "key": "2000",
+          "savings": "1650",
+          "breakdown": [
+            {
+              "title": "5% Cashback on Medicines",
+              "value": "₹600"
+            },
+            {
+              "title": "10% Cashback on Lab Tests*",
+              "value": "₹200"
+            },
+            {
+              "title": "Savings on Shipping & Convenience Charges",
+              "value": "₹250"
+            },
+            {
+              "title": "Savings on Doctor Consultation**",
+              "value": "₹600"
+            },
+            {
+              "title": "<strong>Total 6 Months Savings</strong>",
+              "value": "₹1650"
+            }
+          ],
+          "terms": [
+            "*Assuming you get a lab test done every 3 months",
+            "**Assuming you consult a doctor every 3 months"
+          ]
+        },
+        {
+          "key": "3000",
+          "savings": "2000",
+          "breakdown": [
+            {
+              "title": "5% Cashback on Medicines",
+              "value": "₹900"
+            },
+            {
+              "title": "10% Cashback on Lab Tests*",
+              "value": "₹200"
+            },
+            {
+              "title": "Savings on Shipping & Convenience Charges",
+              "value": "₹300"
+            },
+            {
+              "title": "Savings on Doctor Consultation**",
+              "value": "₹600"
+            },
+            {
+              "title": "<strong>Total 6 Months Savings</strong>",
+              "value": "₹2000"
+            }
+          ],
+          "terms": [
+            "*Assuming you get a lab test done every 3 months",
+            "**Assuming you consult a doctor every 3 months"
+          ]
+        },
+        {
+          "key": "4000",
+          "savings": "2400",
+          "breakdown": [
+            {
+              "title": "5% Cashback on Medicines",
+              "value": "₹1200"
+            },
+            {
+              "title": "10% Cashback on Lab Tests*",
+              "value": "₹200"
+            },
+            {
+              "title": "Savings on Shipping & Convenience Charges",
+              "value": "₹400"
+            },
+            {
+              "title": "Savings on Doctor Consultation**",
+              "value": "₹600"
+            },
+            {
+              "title": "<strong>Total 6 Months Savings</strong>",
+              "value": "₹2400"
+            }
+          ],
+          "terms": [
+            "*Assuming you get a lab test done every 3 months",
+            "**Assuming you consult a doctor every 3 months"
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "name": "orderType_medicine",
+          "tagline": "Save 5% extra on every order",
+          "description": "Medicine order",
+          "definition": [
+            {
+              "key": "orderType",
+              "value": "medicine",
+              "opType": "="
+            }
+          ],
+          "preconditions": [
+            {
+              "opType": ">=",
+              "key": "cartValue",
+              "value": "0"
+            }
+          ],
+          "benefits": {
+            "cashbackPercentage": "5",
+            "maxCashback": "200"
+          },
+          "perUserLimit": 20,
+          "used": 0,
+          "perMonthUsed": 0,
+          "remainingRedemptions": 0,
+          "remainingMonthlyRedemptions": 0,
+          "savings": 0
+        },
+        {
+          "name": "orderType_diagnostics",
+          "tagline": "Save 10% extra on every order",
+          "description": "Diagnostics order",
+          "definition": [
+            {
+              "key": "orderType",
+              "value": "diagnostics",
+              "opType": "="
+            }
+          ],
+          "preconditions": [
+            {
+              "opType": ">=",
+              "key": "cartValue",
+              "value": "0"
+            }
+          ],
+          "benefits": {
+            "cashbackPercentage": "5",
+            "maxCashback": "200"
+          },
+          "perUserLimit": 20,
+          "used": 0,
+          "perMonthUsed": 0,
+          "remainingRedemptions": 0,
+          "remainingMonthlyRedemptions": 0,
+          "savings": 0
+        },
+        {
+          "name": "orderType_otc",
+          "description": "Otc order",
+          "definition": [
+            {
+              "key": "orderType",
+              "value": "otc",
+              "opType": "="
+            }
+          ],
+          "preconditions": [
+            {
+              "opType": ">=",
+              "key": "cartValue",
+              "value": "0"
+            }
+          ],
+          "benefits": {
+            "cashbackPercentage": "0",
+            "maxCashback": "0"
+          },
+          "perUserLimit": 20,
+          "used": 0,
+          "perMonthUsed": 0,
+          "remainingRedemptions": 0,
+          "remainingMonthlyRedemptions": 0,
+          "savings": 0
+        }
+      ],
+      "variants": [
+        {
+          "programID": 52,
+          "id": 48,
+          "description": "3 Months",
+          "validity": 92,
+          "amount": 499,
+          "discountedAmount": 199,
+          "discount": "60",
+          "createdAt": "2021-01-20T18:13:13+05:30",
+          "updatedAt": "2021-01-20T18:13:13+05:30"
+        }
+      ],
+      "invoice": null,
+      "daysToExpiry": -1,
+      "taglineCTA": "Start Saving",
+      "expiryNote": null
+    },
+    "paymentdiscountBanner": [
+      {
+        "id": 9247,
+        "image": "https://cms-contents.pharmeasy.in/banner/a93d45ef9eb-HSBC.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/flat-10-cashback-upto-rs-150-on-hsbc-cashback-credit-card-8989",
+        "url": "https://pharmeasy.in/discounts/flat-10-cashback-upto-rs-150-on-hsbc-cashback-credit-card-8989",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/a93d45ef9eb-HSBC.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 8491,
+        "image": "https://cms-contents.pharmeasy.in/banner/051ca0c08ef-AMAZON-PAY.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/1144",
+        "url": "https://pharmeasy.in/discounts/1144",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/051ca0c08ef-AMAZON-PAY.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 9908,
+        "image": "https://cms-contents.pharmeasy.in/banner/b12a27172b0-hdfcbanner.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/get-15-flat-rs-150-instant-discount-on-hdfc-bank-cards-9877",
+        "url": "https://pharmeasy.in/discounts/get-15-flat-rs-150-instant-discount-on-hdfc-bank-cards-9877",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/b12a27172b0-hdfcbanner.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 9385,
+        "image": "https://cms-contents.pharmeasy.in/banner/9466405c308-au.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/flat-rs-150-off-on-au-bank-debit-and-credit-card-8990",
+        "url": "https://pharmeasy.in/discounts/flat-rs-150-off-on-au-bank-debit-and-credit-card-8990",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/9466405c308-au.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 6601,
+        "image": "https://cms-contents.pharmeasy.in/banner/0c5c9ec6841-mobikwik.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/get-up-to-650-cashback-via-mobikwik-use-code-mbk650-on-mobikiwik-635",
+        "url": "https://pharmeasy.in/discounts/get-up-to-650-cashback-via-mobikwik-use-code-mbk650-on-mobikiwik-635",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/0c5c9ec6841-mobikwik.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 8503,
+        "image": "https://cms-contents.pharmeasy.in/banner/3c88b411e46-ola-money.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/get-minimum-50-and-up-to-1000-cashback-via-olamoney-postpaid--379",
+        "url": "https://pharmeasy.in/discounts/get-minimum-50-and-up-to-1000-cashback-via-olamoney-postpaid--379",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/3c88b411e46-ola-money.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 8502,
+        "image": "https://cms-contents.pharmeasy.in/banner/7297689b914-AIRTEL.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/discounts/get-flat-80-cashback-via-airtel-payments-bank--650",
+        "url": "https://pharmeasy.in/discounts/get-flat-80-cashback-via-airtel-payments-bank--650",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/7297689b914-AIRTEL.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      }
+    ],
+    "LabelBanner": [
+      {
+        "id": 5037,
+        "image": "https://cms-contents.pharmeasy.in/banner/fcbf95577c3-VELCRO.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/8889",
+        "url": "https://pharmeasy.in/health-care/8889",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/fcbf95577c3-VELCRO.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 5034,
+        "image": "https://cms-contents.pharmeasy.in/banner/a9ad640ce01-4.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/9323",
+        "url": "https://pharmeasy.in/health-care/9323",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/a9ad640ce01-4.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 3327,
+        "image": "https://cms-contents.pharmeasy.in/banner/93ef9d6df4f-SLIPPERS.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/8677",
+        "url": "https://pharmeasy.in/health-care/8677",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/93ef9d6df4f-SLIPPERS.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      },
+      {
+        "id": 8192,
+        "image": "https://cms-contents.pharmeasy.in/banner/6e16a38ea89-ORTHO_PEDOC.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-wellness/collections/pe-osg-range-168",
+        "url": "https://pharmeasy.in/health-wellness/collections/pe-osg-range-168",
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/banner/banner/6e16a38ea89-ORTHO_PEDOC.jpg",
+            "face": "",
+            "sequence": ""
+          }
+        ]
+      }
+    ]
+  },
+  "discountPage": {
+    "categories": [
+      {
+        "id": 109,
+        "name": "Covid Essentials",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/6d462f424a43372ea8b7b6f8ca13e052.png?f=png",
+        "discountText": "Upto 77% off",
+        "slug": "covid-essentials-109",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=109&category_name=Covid Essentials"
+      },
+      {
+        "id": 877,
+        "name": "Personal Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/1e622b0308ec3ab48887512eaa3488a5.png?f=png",
+        "discountText": "Upto 80% off",
+        "slug": "personal-care-877",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=877&category_name=Personal Care"
+      },
+      {
+        "id": 648,
+        "name": "Health Food and Drinks",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/335dae76832d370c94f0440f5ba89e1f.png?f=png",
+        "discountText": "Upto 57% off",
+        "slug": "health-food-and-drinks-648",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=648&category_name=Health Food and Drinks"
+      },
+      {
+        "id": 8881,
+        "name": "Beauty",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/403b8ada7b113c7cb2e8d09e3420edfa.png?f=png",
+        "discountText": "Upto 35% off",
+        "slug": "beauty-8881",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=8881&category_name=Beauty"
+      },
+      {
+        "id": 93,
+        "name": "Skin Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/154dec0567b23244b7dcbf2158d39eee.png?f=png",
+        "discountText": "Upto 50% off",
+        "slug": "skin-care-93",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=93&category_name=Skin Care"
+      },
+      {
+        "id": 734,
+        "name": "Home Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/dc96175686f135b5a22d1e57165d0246.png?f=png",
+        "discountText": "Upto 35% off",
+        "slug": "home-care-734",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=734&category_name=Home Care"
+      },
+      {
+        "id": 765,
+        "name": "Ayurvedic Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ecad9a974e003fb987858b3ee81413c6.png?f=png",
+        "discountText": "Upto 70% off",
+        "slug": "ayurvedic-care-765",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=765&category_name=Ayurvedic Care"
+      },
+      {
+        "id": 575,
+        "name": "Sexual Wellness",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/d1b29f7a2b5f3d62a3d47b617aceef1b.png?f=png",
+        "discountText": "Upto 53% off",
+        "slug": "sexual-wellness-575",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=575&category_name=Sexual Wellness"
+      },
+      {
+        "id": 623,
+        "name": "Fitness Supplements",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/514d0d7d01a63502b4ebfec9ae26f4d2.png?f=png",
+        "discountText": "Upto 80% off",
+        "slug": "fitness-supplements-623",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=623&category_name=Fitness Supplements"
+      },
+      {
+        "id": 838,
+        "name": "Mother and Baby Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f692f7243b8036ed97d99a7973dd42b3.png?f=png",
+        "discountText": "Upto 50% off",
+        "slug": "mother-and-baby-care-838",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=838&category_name=Mother and Baby Care"
+      },
+      {
+        "id": 717,
+        "name": "Healthcare Devices",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/cfc8ee511609321e91eb86a34f5b2885.png?f=png",
+        "discountText": "Upto 65% off",
+        "slug": "healthcare-devices-717",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=717&category_name=Healthcare Devices"
+      },
+      {
+        "id": 693,
+        "name": "Health Condition",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/8a31db906db93f7cba59f1c48d3ba239.png?f=png",
+        "discountText": "Upto 65% off",
+        "slug": "health-condition-693",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=693&category_name=Health Condition"
+      },
+      {
+        "id": 145,
+        "name": "Diabetic Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/105ceca515ee30509f93309ae75306aa.png?f=png",
+        "discountText": "Upto 65% off",
+        "slug": "diabetic-care-145",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=145&category_name=Diabetic Care"
+      },
+      {
+        "id": 750,
+        "name": "Elderly Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/fa936f30b4563fc4abd187fb22fe5258.png?f=png",
+        "discountText": "Upto 45% off",
+        "slug": "elderly-care-750",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=750&category_name=Elderly Care"
+      },
+      {
+        "id": 788,
+        "name": "Accessories And Wearables",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/763b558b32313005bc11d0cae0e26f58.png?f=png",
+        "discountText": "Upto 35% off",
+        "slug": "accessories-and-wearables-788",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=788&category_name=Accessories And Wearables"
+      },
+      {
+        "id": 9297,
+        "name": "Top Products",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f10917087a483040b557e4b18204312c.png?f=png",
+        "discountText": "Upto % off",
+        "slug": "top-products-9297",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=9297&category_name=Top Products"
+      }
+    ],
+    "banner": [
+      {
+        "id": 10212,
+        "image": "https://cms-contents.pharmeasy.in/banner/79c73041650-Centrumm.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/centrum-men-world-s-no-1-multivitamin-for-overall-health-veg-50s-3779949",
+        "url": "https://pharmeasy.in/health-care/products/centrum-men-world-s-no-1-multivitamin-for-overall-health-veg-50s-3779949"
+      },
+      {
+        "id": 3087,
+        "image": "https://cms-contents.pharmeasy.in/banner/0546085c3c6-Softovac.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/2372",
+        "url": "https://pharmeasy.in/health-care/2372"
+      },
+      {
+        "id": 4281,
+        "image": "https://cms-contents.pharmeasy.in/banner/4600109971c-OneTouchSPS-CB-Sep22-min.png",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/3415",
+        "url": "https://pharmeasy.in/health-care/3415"
+      },
+      {
+        "id": 10213,
+        "image": "https://cms-contents.pharmeasy.in/banner/21ddc1b9f25-hairr.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/hair-4u-shampoo-bottle---100-ml-172865",
+        "url": "https://pharmeasy.in/health-care/products/hair-4u-shampoo-bottle---100-ml-172865"
+      },
+      {
+        "id": 8489,
+        "image": "https://cms-contents.pharmeasy.in/banner/df29c329f51-Huggies.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/4513",
+        "url": "https://pharmeasy.in/health-care/4513"
+      },
+      {
+        "id": 9846,
+        "image": "https://cms-contents.pharmeasy.in/banner/c4432d461ec-Mintop.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/online-medicine-order/mintop-forte-5-solution-60ml-8206",
+        "url": "https://pharmeasy.in/online-medicine-order/mintop-forte-5-solution-60ml-8206"
+      },
+      {
+        "id": 1322,
+        "image": "https://cms-contents.pharmeasy.in/banner/9e0c8cc9a56-Venusiaa.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/venusia-max-intensive-moisturizing-lotion-for-everyday-use---500g-214676",
+        "url": "https://pharmeasy.in/health-care/products/venusia-max-intensive-moisturizing-lotion-for-everyday-use---500g-214676"
+      },
+      {
+        "id": 6858,
+        "image": "https://cms-contents.pharmeasy.in/banner/1229593baf0-Godrej.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/3372",
+        "url": "https://pharmeasy.in/health-care/3372"
+      },
+      {
+        "id": 10315,
+        "image": "https://cms-contents.pharmeasy.in/banner/a8c80c13891-SENQUEL.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/senquel-f-tooth-paste-100gm-172657",
+        "url": "https://pharmeasy.in/health-care/products/senquel-f-tooth-paste-100gm-172657"
+      },
+      {
+        "id": 10316,
+        "image": "https://cms-contents.pharmeasy.in/banner/612f14cb340-DEPIWHITE.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/depiwhite-tube-of-15ml-eye-contour-gel-170228",
+        "url": "https://pharmeasy.in/health-care/products/depiwhite-tube-of-15ml-eye-contour-gel-170228"
+      },
+      {
+        "id": 10066,
+        "image": "https://cms-contents.pharmeasy.in/banner/447598d4bad-Omez.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/molecules/omeprazole-20-0-mg--6971",
+        "url": "https://pharmeasy.in/molecules/omeprazole-20-0-mg--6971"
+      },
+      {
+        "id": 10067,
+        "image": "https://cms-contents.pharmeasy.in/banner/6b42d7a1f1d-Keterol.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/molecules/ketorolac-10-0-mg--7827",
+        "url": "https://pharmeasy.in/molecules/ketorolac-10-0-mg--7827"
+      }
+    ]
+  },
+  "healthCarePage": {
+    "categories": [
+      {
+        "id": 109,
+        "name": "Covid Essentials",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/6d462f424a43372ea8b7b6f8ca13e052.png?f=png",
+        "discountText": "Upto 77% off",
+        "slug": "covid-essentials-109",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=109&category_name=Covid Essentials"
+      },
+      {
+        "id": 877,
+        "name": "Personal Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/1e622b0308ec3ab48887512eaa3488a5.png?f=png",
+        "discountText": "Upto 80% off",
+        "slug": "personal-care-877",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=877&category_name=Personal Care"
+      },
+      {
+        "id": 648,
+        "name": "Health Food and Drinks",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/335dae76832d370c94f0440f5ba89e1f.png?f=png",
+        "discountText": "Upto 57% off",
+        "slug": "health-food-and-drinks-648",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=648&category_name=Health Food and Drinks"
+      },
+      {
+        "id": 8881,
+        "name": "Beauty",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/403b8ada7b113c7cb2e8d09e3420edfa.png?f=png",
+        "discountText": "Upto 35% off",
+        "slug": "beauty-8881",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=8881&category_name=Beauty"
+      },
+      {
+        "id": 93,
+        "name": "Skin Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/154dec0567b23244b7dcbf2158d39eee.png?f=png",
+        "discountText": "Upto 50% off",
+        "slug": "skin-care-93",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=93&category_name=Skin Care"
+      },
+      {
+        "id": 734,
+        "name": "Home Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/dc96175686f135b5a22d1e57165d0246.png?f=png",
+        "discountText": "Upto 35% off",
+        "slug": "home-care-734",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=734&category_name=Home Care"
+      },
+      {
+        "id": 765,
+        "name": "Ayurvedic Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ecad9a974e003fb987858b3ee81413c6.png?f=png",
+        "discountText": "Upto 70% off",
+        "slug": "ayurvedic-care-765",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=765&category_name=Ayurvedic Care"
+      },
+      {
+        "id": 575,
+        "name": "Sexual Wellness",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/d1b29f7a2b5f3d62a3d47b617aceef1b.png?f=png",
+        "discountText": "Upto 53% off",
+        "slug": "sexual-wellness-575",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=575&category_name=Sexual Wellness"
+      },
+      {
+        "id": 623,
+        "name": "Fitness Supplements",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/514d0d7d01a63502b4ebfec9ae26f4d2.png?f=png",
+        "discountText": "Upto 80% off",
+        "slug": "fitness-supplements-623",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=623&category_name=Fitness Supplements"
+      },
+      {
+        "id": 838,
+        "name": "Mother and Baby Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f692f7243b8036ed97d99a7973dd42b3.png?f=png",
+        "discountText": "Upto 50% off",
+        "slug": "mother-and-baby-care-838",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=838&category_name=Mother and Baby Care"
+      },
+      {
+        "id": 717,
+        "name": "Healthcare Devices",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/cfc8ee511609321e91eb86a34f5b2885.png?f=png",
+        "discountText": "Upto 65% off",
+        "slug": "healthcare-devices-717",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=717&category_name=Healthcare Devices"
+      },
+      {
+        "id": 693,
+        "name": "Health Condition",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/8a31db906db93f7cba59f1c48d3ba239.png?f=png",
+        "discountText": "Upto 65% off",
+        "slug": "health-condition-693",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=693&category_name=Health Condition"
+      },
+      {
+        "id": 145,
+        "name": "Diabetic Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/105ceca515ee30509f93309ae75306aa.png?f=png",
+        "discountText": "Upto 65% off",
+        "slug": "diabetic-care-145",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=145&category_name=Diabetic Care"
+      },
+      {
+        "id": 750,
+        "name": "Elderly Care",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/fa936f30b4563fc4abd187fb22fe5258.png?f=png",
+        "discountText": "Upto 45% off",
+        "slug": "elderly-care-750",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=750&category_name=Elderly Care"
+      },
+      {
+        "id": 788,
+        "name": "Accessories And Wearables",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/763b558b32313005bc11d0cae0e26f58.png?f=png",
+        "discountText": "Upto 35% off",
+        "slug": "accessories-and-wearables-788",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=788&category_name=Accessories And Wearables"
+      },
+      {
+        "id": 9297,
+        "name": "Top Products",
+        "imageUrl": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/f10917087a483040b557e4b18204312c.png?f=png",
+        "discountText": "Upto % off",
+        "slug": "top-products-9297",
+        "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_list?category_id=9297&category_name=Top Products"
+      }
+    ],
+    "banner": [
+      {
+        "id": 10212,
+        "image": "https://cms-contents.pharmeasy.in/banner/79c73041650-Centrumm.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/centrum-men-world-s-no-1-multivitamin-for-overall-health-veg-50s-3779949",
+        "url": "https://pharmeasy.in/health-care/products/centrum-men-world-s-no-1-multivitamin-for-overall-health-veg-50s-3779949"
+      },
+      {
+        "id": 3087,
+        "image": "https://cms-contents.pharmeasy.in/banner/0546085c3c6-Softovac.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/2372",
+        "url": "https://pharmeasy.in/health-care/2372"
+      },
+      {
+        "id": 4281,
+        "image": "https://cms-contents.pharmeasy.in/banner/4600109971c-OneTouchSPS-CB-Sep22-min.png",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/3415",
+        "url": "https://pharmeasy.in/health-care/3415"
+      },
+      {
+        "id": 10213,
+        "image": "https://cms-contents.pharmeasy.in/banner/21ddc1b9f25-hairr.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/hair-4u-shampoo-bottle---100-ml-172865",
+        "url": "https://pharmeasy.in/health-care/products/hair-4u-shampoo-bottle---100-ml-172865"
+      },
+      {
+        "id": 8489,
+        "image": "https://cms-contents.pharmeasy.in/banner/df29c329f51-Huggies.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/4513",
+        "url": "https://pharmeasy.in/health-care/4513"
+      },
+      {
+        "id": 9846,
+        "image": "https://cms-contents.pharmeasy.in/banner/c4432d461ec-Mintop.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/online-medicine-order/mintop-forte-5-solution-60ml-8206",
+        "url": "https://pharmeasy.in/online-medicine-order/mintop-forte-5-solution-60ml-8206"
+      },
+      {
+        "id": 1322,
+        "image": "https://cms-contents.pharmeasy.in/banner/9e0c8cc9a56-Venusiaa.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/venusia-max-intensive-moisturizing-lotion-for-everyday-use---500g-214676",
+        "url": "https://pharmeasy.in/health-care/products/venusia-max-intensive-moisturizing-lotion-for-everyday-use---500g-214676"
+      },
+      {
+        "id": 6858,
+        "image": "https://cms-contents.pharmeasy.in/banner/1229593baf0-Godrej.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/3372",
+        "url": "https://pharmeasy.in/health-care/3372"
+      },
+      {
+        "id": 10315,
+        "image": "https://cms-contents.pharmeasy.in/banner/a8c80c13891-SENQUEL.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/senquel-f-tooth-paste-100gm-172657",
+        "url": "https://pharmeasy.in/health-care/products/senquel-f-tooth-paste-100gm-172657"
+      },
+      {
+        "id": 10316,
+        "image": "https://cms-contents.pharmeasy.in/banner/612f14cb340-DEPIWHITE.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/health-care/products/depiwhite-tube-of-15ml-eye-contour-gel-170228",
+        "url": "https://pharmeasy.in/health-care/products/depiwhite-tube-of-15ml-eye-contour-gel-170228"
+      },
+      {
+        "id": 10066,
+        "image": "https://cms-contents.pharmeasy.in/banner/447598d4bad-Omez.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/molecules/omeprazole-20-0-mg--6971",
+        "url": "https://pharmeasy.in/molecules/omeprazole-20-0-mg--6971"
+      },
+      {
+        "id": 10067,
+        "image": "https://cms-contents.pharmeasy.in/banner/6b42d7a1f1d-Keterol.jpg",
+        "type": 3,
+        "deeplink": "https://pharmeasy.in/molecules/ketorolac-10-0-mg--7827",
+        "url": "https://pharmeasy.in/molecules/ketorolac-10-0-mg--7827"
+      }
+    ]
+  },
+  "LiveEasySearch": [
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 3058800,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Brown - Size Uk 10 / Us 11",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---brown---size-uk-10-us-11-3058800",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=3058800",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-2-1666089666.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-2-1666089666.jpg",
+          "face": "front",
+          "sequence": "2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-3-1666089670.jpg",
+          "face": "combo",
+          "sequence": "3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-6.1-1666089678.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-6.2-1666089674.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-6.3-1666089668.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-6.4-1666089676.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-6.5-1666089672.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/J67437/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-10-us-11-7-1667538911.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 3.1904761904761907,
+        "count": 21
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488981,
+      "productType": 2,
+      "name": "Liveasy Essentials Women'S Diabetic & Orthopedic Slippers - Red - Size Uk 6 / Us 9",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-women-s-diabetic-orthopedic-slippers---red---size-uk-6-us-9-488981",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488981",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.1-1665133779.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.1-1665133779.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.2-1665133781.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.3-1665133785.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.4-1665133783.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-6.5-1665133777.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/W12884/liveasy-essentials-womens-diabetic-orthopedic-slippers-red-size-uk-6-us-9-7-1667538900.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 3.923076923076923,
+        "count": 39
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 3058795,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Brown - Size Uk 7 / Us 8",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---brown---size-uk-7-us-8-3058795",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=3058795",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-2-1666089792.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-2-1666089792.jpg",
+          "face": "front",
+          "sequence": "2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-6.1-1666089790.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-6.2-1666089784.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-6.3-1666089788.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-6.4-1666089786.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-6.5-1666089794.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/X65118/liveasy-essentials-mens-diabetic-orthopedic-slippers-brown-size-uk-7-us-8-7-1667538945.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 4.444444444444445,
+        "count": 9
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488965,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Black - Size Uk 9 / Us 10",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---black---size-uk-9-us-10-488965",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488965",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-6.1-1666082022.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-6.1-1666082022.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-6.2-1666082028.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-6.3-1666082026.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-6.4-1666082020.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-6.5-1666082024.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/P67952/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-9-us-10-7-1667539030.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 3.5142857142857142,
+        "count": 35
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488969,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Blue - Size Uk 10 / Us 11",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---blue---size-uk-10-us-11-488969",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488969",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-6.1-1666090221.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-6.1-1666090221.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-6.2-1666090227.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-6.3-1666090225.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-6.4-1666090219.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-6.5-1666090223.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V51704/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-10-us-11-7-1667538887.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 4.057142857142857,
+        "count": 35
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488980,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Blue - Size Uk 9 / Us 10",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---blue---size-uk-9-us-10-488980",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488980",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.1-1666089751.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.1-1666089751.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.2-1666089753.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.3-1666089749.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.4-1666089755.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-6.5-1666089747.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/V25649/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-9-us-10-7-1667539009.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 4.0227272727272725,
+        "count": 44
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488957,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Blue - Size Uk 7 / Us 8",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---blue---size-uk-7-us-8-488957",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488957",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-3-1666089890.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-3-1666089890.jpg",
+          "face": "combo",
+          "sequence": "3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-6.1-1666089880.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-6.2-1666089886.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-6.3-1666089884.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-6.4-1666089888.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-6.5-1666089882.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/H37590/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-7-us-8-7-1667538994.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 4.076923076923077,
+        "count": 26
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 3058818,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Blue - Size Uk 11 / Us 12",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---blue---size-uk-11-us-12-3058818",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=3058818",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-6.1-1666089412.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-6.1-1666089412.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-6.2-1666089410.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-6.3-1666089416.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-6.4-1666089408.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-6.5-1666089414.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/T49888/liveasy-essentials-mens-diabetic-orthopedic-slippers-blue-size-uk-11-us-12-7-1667538942.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 3.909090909090909,
+        "count": 11
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488960,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Black - Size Uk 10 / Us 11",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---black---size-uk-10-us-11-488960",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488960",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-6.1-1666089183.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-6.1-1666089183.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-6.2-1666089187.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-6.3-1666089185.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-6.4-1666089179.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-6.5-1666089181.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/U15620/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-10-us-11-7-1667538945.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 4.3478260869565215,
+        "count": 23
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    },
+    {
+      "entityType": 2,
+      "entityText": "",
+      "productId": 488968,
+      "productType": 2,
+      "name": "Liveasy Essentials Men'S Diabetic & Orthopedic Slippers - Black - Size Uk 7 / Us 8",
+      "variantCount": 0,
+      "slug": "liveasy-essentials-men-s-diabetic-orthopedic-slippers---black---size-uk-7-us-8-488968",
+      "subtitleText": "2 Slippers(s) in Box",
+      "productTierAttributes": {
+        "type": 5,
+        "text": "Guaranteed Delivery"
+      },
+      "productAvailabilityFlags": {
+        "isAvailable": true,
+        "showVariantsInBottomSheet": false,
+        "notifyMe": false
+      },
+      "productSubstitutionAttributes": null,
+      "similarProductsAttributes": null,
+      "maxQuantity": 20,
+      "deeplink": "push.pharmeasy.clevertap://deeplink/healthcare_product_details?product_id=488968",
+      "packform": "BOX",
+      "measurementUnit": "2 Slippers(s) in Box",
+      "image": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-6.1-1666089808.jpg?dim=300x0&f=jpg&dpr=3&q=60",
+      "isRxRequired": 0,
+      "isRefrigerated": false,
+      "manufacturer": "LIVEASY ESSENTIALS",
+      "mrpDecimal": "999.00",
+      "salePriceDecimal": "519.48",
+      "discountPercent": "48",
+      "discountDecimal": "479.52",
+      "damImages": [
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-6.1-1666089808.jpg",
+          "face": "side",
+          "sequence": "6.1"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-6.2-1666089810.jpg",
+          "face": "side",
+          "sequence": "6.2"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-6.3-1666089816.jpg",
+          "face": "side",
+          "sequence": "6.3"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-6.4-1666089812.jpg",
+          "face": "side",
+          "sequence": "6.4"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-6.5-1666089814.jpg",
+          "face": "side",
+          "sequence": "6.5"
+        },
+        {
+          "url": "https://cdn01.pharmeasy.in/dam/products_otc/O20455/liveasy-essentials-mens-diabetic-orthopedic-slippers-black-size-uk-7-us-8-7-1667538914.jpg",
+          "face": "back",
+          "sequence": "7"
+        }
+      ],
+      "isSimilarAvailable": false,
+      "labelDetails": {
+        "code": 0,
+        "name": ""
+      },
+      "ratingDetails": {
+        "value": 4.066666666666666,
+        "count": 15
+      },
+      "isSponsored": false,
+      "showSponsoredTag": false,
+      "listingId": ""
+    }
+  ],
+  "healthCareProductsPage": {
+    "products": [
+      {
+        "productId": 3514609,
+        "name": "Supradyn Daily Multivitamin Tablets 15s",
+        "slug": "supradyn-daily-multivitamin-tablets-15s-3514609",
+        "manufacturer": "SUPRADYN",
+        "productType": 2,
+        "mrpDecimal": "54.90",
+        "salePriceDecimal": "49.41",
+        "discountDecimal": "5.49",
+        "discountPercent": "10",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-1-1641793954.jpg",
+            "face": "box-front",
+            "sequence": "1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-2-1654233843.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-2.1-1641793944.jpg",
+            "face": "front",
+            "sequence": "2.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-2.2-1641793956.jpg",
+            "face": "front",
+            "sequence": "2.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-3-1654233842.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-4-1641793947.jpg",
+            "face": "box-back",
+            "sequence": "4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-6.1-1641793949.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-6.2-1641793942.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-6.3-1641793940.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-6.4-1641793951.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-6.5-1641793958.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-7-1654233865.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4448336252189,
+          "count": 571
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-1-1641793954.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 19501,
+        "name": "Calcimax Forte Plus Strip Of 30 Tablets",
+        "slug": "calcimax-forte-plus-strip-of-30-tablets-19501",
+        "manufacturer": "CALCIMAX",
+        "productType": 2,
+        "mrpDecimal": "285.00",
+        "salePriceDecimal": "228.00",
+        "discountDecimal": "57.00",
+        "discountPercent": "20",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-2-1654078168.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-3-1654078728.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-6.1-1641398794.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-6.2-1641398796.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-6.3-1641398799.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-7-1654078234.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.5766871165644,
+          "count": 489
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/207833/calcimax-forte-plus-strip-of-30-tablets-2-1654078168.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 3639704,
+        "name": "Liveasy Essentials Handwash Pump 250 Ml",
+        "slug": "liveasy-essentials-handwash-pump-250-ml-3639704",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "72.00",
+        "salePriceDecimal": "72.00",
+        "discountDecimal": null,
+        "discountPercent": "0",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/A75976/liveasy-essentials-handwash-pump-250-ml-2-1653312958.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/A75976/liveasy-essentials-handwash-pump-250-ml-7-1653312978.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.25,
+          "count": 4
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/A75976/liveasy-essentials-handwash-pump-250-ml-2-1653312958.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 38706,
+        "name": "Calcimax 500 Health Supplement Tablets (500 Mg Of Calcium) Box Of 30",
+        "slug": "calcimax-500-health-supplement-tablets-500-mg-of-calcium-box-of-30-38706",
+        "manufacturer": "CALCIMAX",
+        "productType": 2,
+        "mrpDecimal": "380.00",
+        "salePriceDecimal": "304.00",
+        "discountDecimal": "76.00",
+        "discountPercent": "20",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/031531/calcimax-500-health-supplement-tablets-500-mg-of-calcium-box-of-30-2-1654077366.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/031531/calcimax-500-health-supplement-tablets-500-mg-of-calcium-box-of-30-6.1-1654077404.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/031531/calcimax-500-health-supplement-tablets-500-mg-of-calcium-box-of-30-7-1641399044.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4030837004405,
+          "count": 454
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/031531/calcimax-500-health-supplement-tablets-500-mg-of-calcium-box-of-30-2-1654077366.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 3635052,
+        "name": "Toppik Optimizer Black 24/1ct",
+        "slug": "toppik-optimizer-black-24-1ct-3635052",
+        "manufacturer": "TOPPIK",
+        "productType": 2,
+        "mrpDecimal": "600.00",
+        "salePriceDecimal": "288.00",
+        "discountDecimal": "312.00",
+        "discountPercent": "52",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q15602/toppik-optimizer-black-24-1ct-2-1667393434.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q15602/toppik-optimizer-black-24-1ct-6.1-1667393432.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q15602/toppik-optimizer-black-24-1ct-6.2-1667392955.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q15602/toppik-optimizer-black-24-1ct-6.3-1667392869.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": null,
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/Q15602/toppik-optimizer-black-24-1ct-2-1667393434.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 3053895,
+        "name": "Nair Hair Remover Moisturizing Cream - 110g",
+        "slug": "nair-hair-remover-moisturizing-cream---110g-3053895",
+        "manufacturer": "NAIR",
+        "productType": 2,
+        "mrpDecimal": "289.00",
+        "salePriceDecimal": "118.49",
+        "discountDecimal": "170.51",
+        "discountPercent": "59",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-2-1667393582.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-6.1-1667393053.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-6.2-1667393056.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-6.3-1667393000.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-6.4-1667393343.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-6.5-1667393241.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": null,
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/K57596/nair-hair-remover-moisturizing-cream-110g-2-1667393582.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 36999,
+        "name": "Becozym C Forte ( Vitamin B Complex + Biotin + Vitamin C )- Strip Of 15 Tablets",
+        "slug": "becozym-c-forte-vitamin-b-complex-biotin-vitamin-c---strip-of-15-tablets-36999",
+        "manufacturer": "BECOZYM C FORTE",
+        "productType": 2,
+        "mrpDecimal": "27.40",
+        "salePriceDecimal": "25.21",
+        "discountDecimal": "2.19",
+        "discountPercent": "8",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-1-1654077406.jpg",
+            "face": "box-front",
+            "sequence": "1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-2-1654077421.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-2.1-1641398864.jpg",
+            "face": "front",
+            "sequence": "2.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-2.2-1641398844.jpg",
+            "face": "front",
+            "sequence": "2.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-3-1654077385.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-6.1-1641398853.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-6.2-1641398847.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-6.3-1641398850.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-6.4-1641398861.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-7-1641398858.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.3980309423347,
+          "count": 1422
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/022290/becozym-c-forte-vitamin-b-complex-biotin-vitamin-c-strip-of-15-tablets-1-1654077406.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 3607977,
+        "name": "Philips Hair Dryer Bhd308/30 1600w Thermoprotect Airflower, 3 Heat & Speed Settings For Quick Drying",
+        "slug": "philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-3607977",
+        "manufacturer": "PHILIPS",
+        "productType": 2,
+        "mrpDecimal": "1895.00",
+        "salePriceDecimal": "1629.70",
+        "discountDecimal": "265.30",
+        "discountPercent": "14",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-2-1653899709.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-6.1-1653899594.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-6.2-1653899594.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-6.3-1653899819.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-6.4-1653899724.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-6.5-1653899624.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": null,
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/Q03727/philips-hair-dryer-bhd308-30-1600w-thermoprotect-airflower-3-heat-speed-settings-for-quick-drying-2-1653899709.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 11943,
+        "name": "Scalpe Plus Anti Dandruff Shampoo Bottle Of 75 Ml",
+        "slug": "scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-11943",
+        "manufacturer": "SCALPE",
+        "productType": 2,
+        "mrpDecimal": "280.00",
+        "salePriceDecimal": "179.20",
+        "discountDecimal": "100.80",
+        "discountPercent": "36",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-2-1663587003.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-2.1-1663586995.jpg",
+            "face": "front",
+            "sequence": "2.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-3-1663587001.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-6.1-1663586999.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-6.2-1663586997.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-7-1663587005.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.38671875,
+          "count": 768
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/270382/scalpe-plus-anti-dandruff-shampoo-bottle-of-75-ml-2-1663587003.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 209565,
+        "name": "Arachitol Nano 60k Sugar Free Bottle Of 5ml Solution",
+        "slug": "arachitol-nano-60k-sugar-free-bottle-of-5ml-solution-209565",
+        "manufacturer": "ARACHITOL",
+        "productType": 2,
+        "mrpDecimal": "86.66",
+        "salePriceDecimal": "67.59",
+        "discountDecimal": "19.07",
+        "discountPercent": "22",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35308/arachitol-nano-60k-sugar-free-bottle-of-5ml-solution-2-1665749143.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35308/arachitol-nano-60k-sugar-free-bottle-of-5ml-solution-6.1-1665749144.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I35308/arachitol-nano-60k-sugar-free-bottle-of-5ml-solution-6.2-1665749182.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.2871287128713,
+          "count": 101
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/I35308/arachitol-nano-60k-sugar-free-bottle-of-5ml-solution-2-1665749143.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 8293,
+        "name": "Venusia Max Intensive Moisturizing Cream, For Dry To Very Dry Skin, Repairs & Smoothens Skin, 150g",
+        "slug": "venusia-max-intensive-moisturizing-cream-for-dry-very-dry-skin-tube-of-150-g-8293",
+        "manufacturer": "VENUSIA",
+        "productType": 2,
+        "mrpDecimal": "504.00",
+        "salePriceDecimal": "393.12",
+        "discountDecimal": "110.88",
+        "discountPercent": "22",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-2-1660816314.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-3-1654078750.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.1-1660816337.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.2-1660816257.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.3-1660816259.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.4-1660816330.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.5-1660816306.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.6-1660816292.jpg",
+            "face": "side",
+            "sequence": "6.6"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-6.7-1660816271.jpg",
+            "face": "side",
+            "sequence": "6.7"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-7-1654078392.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.5156950672646,
+          "count": 446
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/180461/venusia-max-intensive-moisturizing-cream-for-dry-to-very-dry-skin-repairs-smoothens-skin-150g-2-1660816314.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 8461,
+        "name": "Venusia Max Intensive Moisturizing Lotion, Repairs Dry Skin, Provides Soft & Smooth Skin, 300gm",
+        "slug": "venusia-max-intensive-moisturizing-lotion-for-all-skin-types-bottle-of-300-g-8461",
+        "manufacturer": "VENUSIA",
+        "productType": 2,
+        "mrpDecimal": "662.00",
+        "salePriceDecimal": "516.36",
+        "discountDecimal": "145.64",
+        "discountPercent": "22",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-2-1660816203.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.1-1660816311.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.2-1660816082.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.3-1660816075.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.4-1660816240.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.5-1660816116.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.6-1660816126.jpg",
+            "face": "side",
+            "sequence": "6.6"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.7-1660816085.jpg",
+            "face": "side",
+            "sequence": "6.7"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-7-1645786304.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4293059125964,
+          "count": 389
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-2-1660816203.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 235886,
+        "name": "Liveasy Wellness Calcium, Magnesium, Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+        "slug": "liveasy-wellness-calcium-magnesium-vitamin-d3-zinc---bones-dental-health---bottle-of-60-tablets-235886",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "599.00",
+        "salePriceDecimal": "329.45",
+        "discountDecimal": "269.55",
+        "discountPercent": "45",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-6.1-1661760151.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          }
+        ],
+        "labelDetails": {
+          "code": 1,
+          "name": "BEST SELLER"
+        },
+        "ratingDetails": {
+          "value": 4.1259445843829,
+          "count": 397
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/T22634/liveasy-wellness-calcium-magnesium-vitamin-d3-zinc-bones-dental-health-bottle-60-tabs-2-1661760061.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 227487,
+        "name": "Ultra D3 Drops - Vitamin D3 For Infants Vitamin Drops Bottle Of 15 Ml",
+        "slug": "ultra-d3-drops---vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-227487",
+        "manufacturer": "ULTRA D3",
+        "productType": 2,
+        "mrpDecimal": "37.85",
+        "salePriceDecimal": "32.17",
+        "discountDecimal": "5.68",
+        "discountPercent": "15",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-2-1654250369.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-6.1-1641788617.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-6.2-1641788616.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-6.3-1641788609.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-6.4-1641788610.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-6.5-1641788614.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-6.6-1641788608.jpg",
+            "face": "side",
+            "sequence": "6.6"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.702380952381,
+          "count": 168
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/P26899/ultra-d3-drops-vitamin-d3-for-infants-vitamin-drops-bottle-of-15-ml-2-1654250369.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 37059,
+        "name": "Benadon Vitamin B6 40mg Tablet 10's",
+        "slug": "benadon-vitamin-b6-40mg-tablet-10-s-37059",
+        "manufacturer": "BENADON",
+        "productType": 2,
+        "mrpDecimal": "25.40",
+        "salePriceDecimal": "24.13",
+        "discountDecimal": "1.27",
+        "discountPercent": "5",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-2-1658917336.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-2.1-1658917334.jpg",
+            "face": "front",
+            "sequence": "2.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-2.2-1658917338.jpg",
+            "face": "front",
+            "sequence": "2.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-3-1658917332.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-6.1-1658917330.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-6.2-1658917342.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-7-1658917340.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4027149321267,
+          "count": 221
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/022610/benadon-vitamin-b6-40mg-tablet-10s-2-1658917336.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 25749,
+        "name": "Revital H Women Multivitamin With Calcium, Zinc, Ginseng For Immunity, Strong Bones & Energy 30 Tablets",
+        "slug": "revital-h-woman-health-supplement-tablets-bottle-of-30-25749",
+        "manufacturer": "REVITAL",
+        "productType": 2,
+        "mrpDecimal": "360.00",
+        "salePriceDecimal": "306.00",
+        "discountDecimal": "54.00",
+        "discountPercent": "15",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-1-1654168794.jpg",
+            "face": "box-front",
+            "sequence": "1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-2-1654168765.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-3-1654168762.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-health-supplement-tablets-bottle-of-30-6.1-1641398762.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-health-supplement-tablets-bottle-of-30-6.2-1641398764.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-health-supplement-tablets-bottle-of-30-6.3-1641398752.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-health-supplement-tablets-bottle-of-30-6.4-1641398766.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-health-supplement-tablets-bottle-of-30-6.6-1641398758.jpg",
+            "face": "side",
+            "sequence": "6.6"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-woman-health-supplement-tablets-bottle-of-30-6.7-1641398761.jpg",
+            "face": "side",
+            "sequence": "6.7"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-7-1654168829.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4625468164794,
+          "count": 534
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-1-1654168794.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 23108,
+        "name": "Revital H Men Multivitamin With Calcium, Zinc & Ginseng For Immunity, Strong Bones & Energy (60 Capsules)",
+        "slug": "revital-h-health-supplement-capsules-bottle-of-60-23108",
+        "manufacturer": "REVITAL",
+        "productType": 2,
+        "mrpDecimal": "550.00",
+        "salePriceDecimal": "467.50",
+        "discountDecimal": "82.50",
+        "discountPercent": "15",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-60-capsules-2-1654077644.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-60-capsules-3-1654077743.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-health-supplement-capsules-bottle-of-60-6.1-1641398756.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-health-supplement-capsules-bottle-of-60-6.2-1641398745.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-health-supplement-capsules-bottle-of-60-6.3-1641398753.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-health-supplement-capsules-bottle-of-60-6.4-1641398743.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-60-capsules-7-1654077638.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4266666666667,
+          "count": 825
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/281751/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-60-capsules-2-1654077644.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 23096,
+        "name": "Revital H Men Multivitamin With Calcium, Zinc & Ginseng For Immunity, Strong Bones & Energy (30 Capsules)",
+        "slug": "revital-h-health-supplement-capsules-bottle-of-30-23096",
+        "manufacturer": "REVITAL",
+        "productType": 2,
+        "mrpDecimal": "310.00",
+        "salePriceDecimal": "263.50",
+        "discountDecimal": "46.50",
+        "discountPercent": "15",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-3-1654078581.jpg",
+            "face": "combo",
+            "sequence": "3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.1-1641398821.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.2-1641398805.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.3-1641398817.jpg",
+            "face": "side",
+            "sequence": "6.3"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.4-1641398814.jpg",
+            "face": "side",
+            "sequence": "6.4"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.5-1641398825.jpg",
+            "face": "side",
+            "sequence": "6.5"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-health-supplement-capsules-bottle-of-30-6.6-1641398808.jpg",
+            "face": "side",
+            "sequence": "6.6"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-7-1654077677.jpg",
+            "face": "back",
+            "sequence": "7"
+          }
+        ],
+        "labelDetails": null,
+        "ratingDetails": {
+          "value": 4.4134615384615,
+          "count": 520
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/270552/revital-h-men-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-capsules-2-1654077741.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 234982,
+        "name": "Everherb (by Pharmeasy) Ashwagandha - Immunity Booster Capsules - Anxiety & Stress Relief - Bottle Of 60",
+        "slug": "everherb-ashwagandha---immunity-booster-capsules---anxiety-stress-relief---bottle-of-60-234982",
+        "manufacturer": "EVERHERB",
+        "productType": 2,
+        "mrpDecimal": "599.00",
+        "salePriceDecimal": "341.43",
+        "discountDecimal": "257.57",
+        "discountPercent": "43",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1661760071.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.1-1661760093.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-6.2-1661760144.jpg",
+            "face": "side",
+            "sequence": "6.2"
+          }
+        ],
+        "labelDetails": {
+          "code": 5,
+          "name": "ON SALE"
+        },
+        "ratingDetails": {
+          "value": 3.9317406143345,
+          "count": 293
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/O31911/everherb-by-pharmeasy-ashwagandha-immunity-booster-capsules-anxiety-stress-relief-bottle-of-60-2-1661760071.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      },
+      {
+        "productId": 235895,
+        "name": "Liveasy Wellness Multivitamin Multimineral - Immunity Booster - Complete Nutrition - Bottle Of 60",
+        "slug": "liveasy-wellness-multivitamin-multimineral---immunity-booster---complete-nutrition---bottle-of-60-235895",
+        "manufacturer": "LIVEASY",
+        "productType": 2,
+        "mrpDecimal": "699.00",
+        "salePriceDecimal": "559.20",
+        "discountDecimal": "139.80",
+        "discountPercent": "20",
+        "categoryId": null,
+        "damImages": [
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1661760039.jpg",
+            "face": "front",
+            "sequence": "2"
+          },
+          {
+            "url": "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-6.1-1661760099.jpg",
+            "face": "side",
+            "sequence": "6.1"
+          }
+        ],
+        "labelDetails": {
+          "code": 5,
+          "name": "ON SALE"
+        },
+        "ratingDetails": {
+          "value": 4.183734939759,
+          "count": 332
+        },
+        "listingId": null,
+        "productTierAttributes": {
+          "type": 5,
+          "text": "Guaranteed Delivery"
+        },
+        "productSubstitutionAttributes": null,
+        "productAvailabilityFlags": {
+          "isAvailable": true,
+          "showVariantsInBottomSheet": true,
+          "notifyMe": false
+        },
+        "maxQuantity": 20,
+        "productVolume": 0,
+        "similarProductsAttributes": null,
+        "isAvailable": true,
+        "images": [
+          "https://cdn01.pharmeasy.in/dam/products_otc/E79162/liveasy-wellness-multivitamin-multimineral-immunity-booster-complete-nutrition-bottle-of-60-2-1661760039.jpg?dim=300x0&f=jpg&dpr=3&q=60"
+        ]
+      }
+    ],
+    "Skin Care": [
+      {
+        "title": "Venusia Max Intensive Moisturizing Lotion, Repairs Dry Skin, Provides Soft & Smooth Skin, 300gm",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-2-1645786251.jpg",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.1-1645786158.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/263100/venusia-max-intensive-moisturizing-lotion-repairs-dry-skin-provides-soft-smooth-skin-300gm-6.2-1645786155.jpg",
+        "mrp": 427.07,
+        "strike": 500,
+        "discount": 73,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal",
+          "Face Wipes"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Ethiglo Skin Whitening Face Wash-70 Gm",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/245780/ethiglo-skin-whitening-face-wash-70-gm-1-1641398620.jpg",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/245780/ethiglo-skin-whitening-face-wash-70-gm-2-1654078683.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/245780/ethiglo-skin-whitening-face-wash-70-gm-3-1654078127.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 180,
+        "strike": 200,
+        "discount": 20,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal",
+          "Face Wipes"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Episoft Cleansing Lotion 250ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/273329/episoft-cleansing-lotion-250ml-2-1641398639.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/273329/episoft-cleansing-lotion-250ml-6.1-1641398642.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/273329/episoft-cleansing-lotion-250ml-7-1641398638.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 400,
+        "strike": 500,
+        "discount": 100,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Veet Pure Hair Removal Cream For Women With No Ammonia Smell, Sensitive Skin - 50 G",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/I40181/veet-pure-hair-removal-cream-for-women-with-no-ammonia-smell-sensitive-skin-50-g-2-1656923330.jpg",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/I40181/veet-pure-hair-removal-cream-for-women-with-no-ammonia-smell-sensitive-skin-50-g-6.1-1656923502.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/I40181/veet-pure-hair-removal-cream-for-women-with-no-ammonia-smell-sensitive-skin-50-g-6.2-1656923552.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 120,
+        "strike": 135,
+        "discount": 15,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Nivea Aloe Mosturizing Creme Bottle Of 200 Ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/I40908/nivea-aloe-mosturizing-creme-bottle-of-200-ml-2-1654251202.jpg",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/I40908/nivea-aloe-mosturizing-creme-bottle-of-200-ml-3-1654251081.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/I40908/nivea-aloe-mosturizing-creme-bottle-of-200-ml-6.1-1641788074.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 255,
+        "strike": 300,
+        "discount": 45,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "La Shield Fisico Sunscreen Spf 50 Matte Tube Of 50 G",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/239792/la-shield-spf-40-sunscreen-gel-50gm-2-1655119017.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/O15703/la-shield-fisico-sunscreen-spf-50-matte-tube-of-50-g-6.1-1655118974.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/O15703/la-shield-fisico-sunscreen-spf-50-matte-tube-of-50-g-6.4-1655118889.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 504,
+        "strike": 630,
+        "discount": 126,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Dettol Intense Cool Bathing Soap Bar With Menthol- Buy 4 Get 1 Free - 125g Each",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/R85254/dettol-intense-cool-bathing-soap-bar-with-menthol-buy-4-get-1-free-125g-each-2-1656923385.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/R85254/dettol-intense-cool-bathing-soap-bar-with-menthol-buy-4-get-1-free-125g-each-6.1-1656923359.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/R85254/dettol-intense-cool-bathing-soap-bar-with-menthol-buy-4-get-1-free-125g-each-6.6-1656923378.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 250,
+        "strike": 300,
+        "discount": 50,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Lacto Calamine Daily Cleansing Face Wipes With Aloe Vera Cucumber And Vitamin E - 25 Wipes",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/S78152/lacto-calamine-daily-cleansing-face-wipes-with-aloe-vera-cucumber-and-vitamin-e-25-wipes-2-1649841683.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/S78152/lacto-calamine-daily-cleansing-face-wipes-with-aloe-vera-cucumber-and-vitamin-e-25-wipes-6.1-1649841745.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/S78152/lacto-calamine-daily-cleansing-face-wipes-with-aloe-vera-cucumber-and-vitamin-e-25-wipes-6.2-1649841685.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 66,
+        "strike": 150,
+        "discount": 84,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal",
+          "Face Wipes"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Baby Dove Rich Moisture Wipes 50 Pcs",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/I07151/baby-dove-rich-moisture-wipes-50-pcs-2-1641787610.jpg",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/I07151/baby-dove-rich-moisture-wipes-50-pcs-6.1-1641787609.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/I07151/baby-dove-rich-moisture-wipes-50-pcs-6.2-1641787610.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 122,
+        "strike": 135,
+        "discount": 13,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal",
+          "Face Wipes"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "D Acne Soft Foaming Face Wash Tube Of 100 G",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/I07034/fash-x-gel-face-wash-200gm-2-1654167900.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/I07034/fash-x-gel-face-wash-200gm-3-1654167869.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/I07034/fash-x-gel-face-wash-200gm-7-1654168030.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 350,
+        "strike": 475,
+        "discount": 35,
+        "ancestor": [
+          "All Categories",
+          "Skin Care",
+          "Skin Creams & Hair Removal",
+          "Face Wipes"
+        ],
+        "brand": "N/A",
+        "instock": true
+      }
+    ],
+    "Home Care": [
+      {
+        "title": "Dettol Antiseptic Liquid Bottle Of 550 Ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-2-1656923531.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-6.1-1656923485.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/I40695/dettol-antiseptic-liquid-bottle-of-550-ml-6.2-1656923443.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 180.98,
+        "strike": 194.6,
+        "discount": 13.62,
+        "ancestor": [
+          "All Categories",
+          "Home Care"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Godrej Good Knight Gold Flash Mosquito Repellent (Machine + 2 Refills) - Combo Pack-1 Unit",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/G48731/godrej-good-knight-gold-flash-mosquito-repellent-machine-2-refills-combo-pack-1-unit-1-1641794003.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/G48731/godrej-good-knight-gold-flash-mosquito-repellent-machine-2-refills-combo-pack-1-unit-3-1641793992.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/G48731/godrej-good-knight-gold-flash-mosquito-repellent-machine-2-refills-combo-pack-1-unit-6.1-1641794006.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 160,
+        "strike": 200,
+        "discount": 40,
+        "ancestor": [
+          "All Categories",
+          "Home Care"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Lizol Floral Disinfectant Floor Cleaner Liquid Bottle Of 200 Ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/Q82571/lizol-floral-disinfectant-floor-cleaner-liquid-bottle-of-200-ml-2-1653995428.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/Q82571/lizol-floral-disinfectant-floor-cleaner-liquid-bottle-of-200-ml-6.1-1653995449.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/Q82571/lizol-floral-disinfectant-floor-cleaner-liquid-bottle-of-200-ml-6.10-1653995436.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 400,
+        "strike": 500,
+        "discount": 100,
+        "ancestor": [
+          "All Categories",
+          "Home Care"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Harpic Lemon Bathroom Cleaner Bottle Of 500 Ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/V90385/harpic-lemon-bathroom-cleaner-bottle-of-500-ml-2-1641792574.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/V90385/harpic-lemon-bathroom-cleaner-bottle-of-500-ml-6.1-1641792567.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/V90385/harpic-lemon-bathroom-cleaner-bottle-of-500-ml-6.2-1641792569.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 96.03,
+        "strike": 99,
+        "discount": 2.97,
+        "ancestor": [
+          "All Categories",
+          "Home Care",
+          "Disinfectants"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Domex Disinfectant Expert Toilet Cleaner - 500 Ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/A27923/domex-disinfectant-expert-toilet-cleaner-500-ml-2-1643435689.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/A27923/domex-disinfectant-expert-toilet-cleaner-500-ml-6.2-1643435691.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/A27923/domex-disinfectant-expert-toilet-cleaner-500-ml-6.2-1643435691.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 97.02,
+        "strike": 98,
+        "discount": 1.8,
+        "ancestor": [
+          "All Categories",
+          "Home Care",
+          "Disinfectants"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Luxor Nano Mobile Disinfectant Cleaner - 10ml On-The-Go",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/J50288/luxor-nano-mobile-disinfectant-cleaner-10ml-on-the-go-2-1641790364.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/J50288/luxor-nano-mobile-disinfectant-cleaner-10ml-on-the-go-6.1-1641790354.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/J50288/luxor-nano-mobile-disinfectant-cleaner-10ml-on-the-go-6.2-1641790368.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 70,
+        "strike": 100,
+        "discount": 30,
+        "ancestor": [
+          "All Categories",
+          "Home Care",
+          "Disinfectants"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Dettol Liquid Disinfectant For Floor Cleaner, Surface Disinfection Personal Hygiene Lime Fresh 500ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/I40097/dettol-liquid-disinfectant-for-floor-cleaner-surface-disinfection-personal-hygiene-lime-fresh-500ml-2-1654166123.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/I40097/dettol-liquid-disinfectant-for-floor-cleaner-surface-disinfection-personal-hygiene-lime-fresh-500ml-3-1654166132.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/I40097/dettol-liquid-disinfectant-for-floor-cleaner-surface-disinfection-personal-hygiene-lime-fresh-500ml-6.1-1641788112.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 173.7,
+        "strike": 193,
+        "discount": 19.3,
+        "ancestor": [
+          "All Categories",
+          "Home Care",
+          "Skin Creams & Hair Removal",
+          "Home Hygiene Essentials"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Dettol Disinfectant Sanitizer Spray Bottle -Spring Blossom, 225ml)",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/O35200/dettol-disinfectant-sanitizer-spray-bottle-spring-blossom-225ml-2-1654234201.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/O35200/dettol-disinfectant-sanitizer-spray-bottle-spring-blossom-225ml-3-1654234069.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/O35200/dettol-disinfectant-sanitizer-spray-bottle-spring-blossom-225ml-6.1-1641793422.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 135.15,
+        "strike": 159,
+        "discount": 23.85,
+        "ancestor": [
+          "All Categories",
+          "Home Care"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Tri-Activ Disinfectant Spray For Multi-Surfaces 70% Alcohol Based - 100ml",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/J56493/tri-activ-disinfectant-spray-for-multi-surfaces-70-alcohol-based-100ml-2-1641789235.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/J56493/tri-activ-disinfectant-spray-for-multi-surfaces-70-alcohol-based-100ml-3-1641789239.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/J56493/tri-activ-disinfectant-spray-for-multi-surfaces-70-alcohol-based-100ml-6.1-1641789243.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 63.36,
+        "strike": 99,
+        "discount": 35.64,
+        "ancestor": [
+          "All Categories",
+          "Home Care"
+        ],
+        "brand": "N/A",
+        "instock": true
+      },
+      {
+        "title": "Ezee Bio-Degradable Large Garbage Bags (24 X 32 Inches) Packet Of 15",
+        "img1": "https://cdn01.pharmeasy.in/dam/products_otc/E89642/ezee-bio-degradable-large-garbage-bags-24-x-32-inches-packet-of-15-1-1641788762.jpg?dim=320x320&dpr=1&q=100",
+        "img2": "https://cdn01.pharmeasy.in/dam/products_otc/E89642/ezee-bio-degradable-large-garbage-bags-24-x-32-inches-packet-of-15-2-1641788763.jpg?dim=100x0&dpr=1&q=100",
+        "img3": "https://cdn01.pharmeasy.in/dam/products_otc/E89642/ezee-bio-degradable-large-garbage-bags-24-x-32-inches-packet-of-15-4-1641788769.jpg?dim=100x0&dpr=1&q=100",
+        "mrp": 77.22,
+        "strike": 99,
+        "discount": 21.78,
+        "ancestor": [
+          "All Categories",
+          "Home Care"
+        ],
+        "brand": "N/A",
+        "instock": true
+      }
+    ]
+  }
+}

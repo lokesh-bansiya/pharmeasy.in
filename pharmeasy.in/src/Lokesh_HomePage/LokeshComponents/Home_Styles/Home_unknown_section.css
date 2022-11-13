@@ -1,0 +1,214 @@
+.home_unknown_section{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.home_unknown_section-container{
+    background-color: rgb(228, 251, 250);
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+.home_unknown_section-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.home_unknown_section-container > div{
+    position: relative;
+    top: -330px;
+    left: 34%;
+    width: 30%;
+    display: block;
+    text-align: center;
+}
+
+.home_unknown_section-container > div > h2{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 3%;
+    color: rgb(87, 86, 86);
+}
+
+.home_unknown_section-container > div > p{
+    font-size: 20px;
+    padding: 1%;
+    font-weight: bold;
+    margin: 1%;
+}
+
+.home_unknown_section-Box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 3% auto 4% auto;
+}
+.home_unknown_section-Box > div{
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+}
+    
+.home_unknown_section-Box > div > img{
+    width: 100%;
+    margin: auto 2% auto 2%;
+}
+
+.home_unknown_section-Box > div > img:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.5s ease-in;
+}
+
+@media all and (min-width: 950px) and (max-width: 1200px){
+    
+    .home_unknown_section-container{
+        height: 320px;
+    }
+
+    .home_unknown_section-container > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home_unknown_section-container > div{
+        top: -280px;
+        width: 40%;
+        left: 30%;
+    }
+
+    .home_unknown_section-container > div > h2{
+        font-size: 30px;
+        padding: 0%;
+        margin: 3%;
+    }
+
+    .home_unknown_section-container > div > p{
+        font-size: 16px;
+    }
+    .home_unknown_section-Box > div > img{
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 751px) and (max-width: 949px){
+
+    .home_unknown_section-container{
+        height: 280px;
+    }
+
+    .home_unknown_section-container > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home_unknown_section-container > div{
+        top: -265px;
+        left: 30%;
+        width: 40%;
+    }
+
+    .home_unknown_section-container > div > h2{
+        font-size: 30px;
+    }
+
+    .home_unknown_section-container > div > p{
+        font-size: 16px;
+    }
+    .home_unknown_section-Box > div > img{
+        width: 90%;
+    }
+}
+
+
+@media all and (min-width: 551px) and (max-width: 750px){
+
+    .home_unknown_section-container{
+        height: 230px;
+    }
+
+    .home_unknown_section-container > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home_unknown_section-container > div{
+        top: -200px;
+        left: 30%;
+        width: 40%;
+    }
+
+    .home_unknown_section-container > div > h2{
+        font-size: 20px;
+    }
+
+    .home_unknown_section-container > div > p{
+        font-size: 12px;
+    }
+
+    .home_unknown_section-Box > div > img{
+        width: 90%;
+    }
+
+}
+
+
+@media all and (min-width: 411px) and (max-width: 550px){
+
+    .home_unknown_section-container{
+        height: 190px;
+    }
+
+    .home_unknown_section-container > div{
+        top: -170px;
+        left: 30%;
+        width: 40%;
+    }
+
+    .home_unknown_section-container > div > h2{
+        font-size: 20px;
+        font-weight: bolder;
+        padding: 0%;
+        margin: 3%;
+    }
+
+    .home_unknown_section-container > div > p{
+        font-size: 12px;
+    }
+    .home_unknown_section-Box > div > img{
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 280px) and (max-width: 410px){
+
+    .home_unknown_section-container{
+        height: 170px;
+    }
+
+    .home_unknown_section-container > div{
+        top: -150px;
+        left: 30%;
+        width: 40%;
+    }
+
+    .home_unknown_section-container > div > h2{
+        font-size: 15px;
+        font-weight: bolder;
+        padding: 0%;
+        margin: 3%;
+    }
+
+    .home_unknown_section-container > div > p{
+        font-size: 10px;
+    }
+
+    .home_unknown_section-Box > div > img{
+        width: 90%;
+    }
+}

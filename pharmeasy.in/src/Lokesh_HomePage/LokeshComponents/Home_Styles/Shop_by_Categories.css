@@ -1,0 +1,137 @@
+.Home_Categories_Brands{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1%;
+    margin-bottom: 5%;
+}
+
+.p-tag_Categories_Brands{
+    font-size: 200%;
+    display: block;
+    text-align: left;
+    margin-left: 3%;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+.Home_Categories_Brands_Item > div > img{
+    width: 90%;
+    padding: 7%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.Home_Categories_Brands_Item > div > img:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    transform: scale(1.06);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.Home_Categories_Brands_Item > div:last-child{
+    font-size: 110%;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Home_Categories_Brands_Item  div:hover{
+    color: red;
+    cursor: pointer;
+}
+
+@media all and (min-width: 511px) and (max-width: 860px){
+    .Home_Categories_Brands{
+        display: grid;
+        width: 95%;
+        margin: auto;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2%;
+        margin-bottom: 5%;
+    }
+
+    .p-tag_Categories_Brands{
+        font-size: 190%;
+        display: block;
+        text-align: left;
+        margin-left: 3%;
+        font-weight: 500;
+        margin-top: 5%;
+    }
+    
+    .p2-tag_Categories_Brands{
+        font-size: 100%;
+        display: block;
+        text-align: left;
+        margin-bottom: 3%;
+        margin-left: 3%;
+        font-weight: 500;
+    }
+    
+    /* .Home_Categories_Brands_Item > div > img{
+        width: 90%;
+        background-color: whitesmoke;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    } */
+    
+    .Home_Categories_Brands_Item > div > img:hover{
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        transform: scale(1.06);
+        transition: 0.3s ease-in;
+    }
+    
+    .Home_Categories_Brands_Item > div:last-child{
+        font-size: 130%;
+        font-weight: 400;
+        margin: 2%;
+    }
+}
+
+
+@media all and (min-width: 280px) and (max-width: 510px){
+    .Home_Categories_Brands{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3%;
+        margin-bottom: 15%;
+    }
+
+    .p-tag_Categories_Brands{
+        font-size: 120%;
+        display: block;
+        text-align: left;
+        margin-left: 3%;
+        font-weight: 500;
+        margin-top: 5%;
+    }
+    
+    .p2-tag_Categories_Brands{
+        font-size: 100%;
+        display: block;
+        text-align: left;
+        margin-bottom: 3%;
+        margin-left: 3%;
+        font-weight: 500;
+    }
+
+    .Home_Categories_Brands_Item > div > img:hover{
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        transform: scale(1.06);
+        transition: 0.3s ease-in;
+    }
+    
+    .Home_Categories_Brands_Item > div:last-child{
+        font-size: 100%;
+        font-weight: 400;
+        margin: 2%;
+    }
+}
