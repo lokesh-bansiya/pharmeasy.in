@@ -1,7 +1,8 @@
 # electric-school-1726
 ## Welcome to Holistic Remedies
 Holistic Remedies is one of top leading and trusted company, which provides Healthcare, diagonistic and personal care products. Started with the sole purpose of making healthcare accessible and affordable to all everyone
-
+<br/>
+<h3>PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.</h3>
 ## [Deployed URL]( https://holistic-remedies.netlify.app/)
 
 
