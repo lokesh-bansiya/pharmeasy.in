@@ -8,6 +8,14 @@ Holistic Remedies is one of top leading and trusted company, which provides Heal
 
 ## [Deployed URL]( https://holistic-remedies.netlify.app/)
 
+## Functionality
+  -  Authentication of users
+  -  Users can open products from home pag itself and
+  -  Users can also open product items in single item page
+  -  Users can add product items to cart
+  -  Users can check their items in cart page
+  -  Users can remove the items as well from cart page
+
 
 ## Home Page:
 ![home-page](https://user-images.githubusercontent.com/105616033/201505193-305d94ca-f31e-4933-a00d-ed6b896eb33d.png)
