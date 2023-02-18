@@ -64,7 +64,7 @@ const CarouselBox_Third = () => {
                         </div>
                     </div>
                 </div>
-               
+
             </Carousel.Item>
 
             <Carousel.Item className="Home_carousel_Third_container">
@@ -123,7 +123,7 @@ const CarouselBox_Third = () => {
                         </div>
                     </div>
                 </div>
-               
+
             </Carousel.Item>
 
         </Carousel>

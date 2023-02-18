@@ -1,7 +1,4 @@
-
 import { Routes, Route } from "react-router-dom";
-
-
 import HealthCarePage from "../Pages/HealthCare/HealthCarePage";
 import LabTestPage from "../Pages/LabTest/LabTestPage";
 import {Home} from "../Lokesh_HomePage/LokeshPages/Home"
@@ -9,9 +6,6 @@ import SingleProductPage from "../Pages/singleProductPage/SingleProductPage";
 import ProductsPage from "../Pages/productspage/productspage"
 import Cart from "../Pages/Cart/Cart";
 import {Navbar_Update} from "../Navbar_Component/Navbar_Update"
-// import OrderMedicines from "../Pages/OrderMedicines/OrderMedicines";
-
-// import RtpcrTest from "../Pages/RtpcrTest/RtpcrTest";
 import { Navbar } from "../Prem/Nav_Components/Navbar";
 import PaymentPage from "../Pages/PaymentPage/Payment";
 import Login from "../Abhay_Admin/Login";
@@ -49,8 +43,6 @@ const Mainroutes = () => {
         <Route path="/medicalrecord" element={<Medicalrecord/>}/>
         <Route path="/rtpcr" element={<RtpcrTest />} />
       </Routes>
-      
-     
     </div>
   );
 };

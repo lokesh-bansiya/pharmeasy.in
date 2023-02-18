@@ -1,27 +1,24 @@
 import {
   FormControl,
   FormLabel,
-  FormErrorMessage,
   FormHelperText,
   Stack,
   Input,
   HStack,
   Radio,
   RadioGroup,
-  position,
   SimpleGrid,
   Button,
-  useToast
+  useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import "./admin.css";
-
-import { FaCut } from "react-icons/fa";
 import axios from "axios";
 import { useRef } from "react";
-export const PostRequest = ({getdata}) => {
-  console.log(getdata)
-  const toast=useToast()
+
+export const PostRequest = ({ getdata }) => {
+  console.log(getdata);
+  const toast = useToast();
   const [count, setCount] = useState(10);
   const [name, setname] = useState("");
   const [image, setimage] = useState("");
@@ -38,8 +35,6 @@ export const PostRequest = ({getdata}) => {
   };
 
   const postdata = () => {
-    
-
     axios
       .post("http://localhost:8080/posts", {
         id: setCount((pre) => pre + 1),
@@ -56,96 +51,92 @@ export const PostRequest = ({getdata}) => {
         console.log(error);
       });
 
-           
-  toast({
-    title: "Product has been added successfully in a database",
-    position: "top",
-    isClosable: true,
-    status:"success"
-  
-  })
+    toast({
+      title: "Product has been added successfully in a database",
+      position: "top",
+      isClosable: true,
+      status: "success",
+    });
 
-  getdata()
+    getdata();
   };
   return (
     <>
-      {/* <button onClick={getvalfun}>
-        <FaCut
-          style={{ marginLeft: "67%", position: "absolute", top: "100" }}
-        />
-      </button>
-      {val ? ( */}
-        <div>
-          <Stack  margin="auto" width="90%">
-            <FormControl
+      <div>
+        <Stack margin="auto" width="90%">
+          <FormControl
             boxShadow=" rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"
-             
-              paddingLeft={10}
-              paddingRight={10}
-              paddingTop={10}
-              paddingBottom={10}
+            paddingLeft={10}
+            paddingRight={10}
+            paddingTop={10}
+            paddingBottom={10}
+          >
+            <FormHelperText color="teal" fontSize="25px" textAlign="center">
+              Add Product
+            </FormHelperText>
+            <FormLabel paddingTop={5} color="teal">
+              Name
+            </FormLabel>
+            <Input
+              border="1px solid teal"
+              onChange={(e) => setname(e.target.value)}
+              type="text"
+            />
+            <FormLabel paddingTop={5} color="teal">
+              Image
+            </FormLabel>
+            <Input
+              border="1px solid teal"
+              onChange={(e) => setimage(e.target.value)}
+              type="url"
+            />
+            <FormLabel paddingTop={5} color="teal">
+              Price
+            </FormLabel>
+            <Input
+              border="1px solid teal"
+              onChange={(e) => setprice(e.target.value)}
+              type="number"
+            />
+            <FormLabel paddingTop={5} color="teal">
+              Discount
+            </FormLabel>
+            <Input
+              border="1px solid teal"
+              onChange={(e) => setdiscount(e.target.value)}
+              type="text"
+            />
+            <FormLabel paddingTop={5} color="teal">
+              Product Category
+            </FormLabel>
+            <RadioGroup
+              color="teal"
+              onChange={(e) => setCategory(e)}
+              defaultValue="Itachi"
             >
-              <FormHelperText color="teal" fontSize="25px" textAlign="center">
-                Add Product
-              </FormHelperText>
-              <FormLabel paddingTop={5} color="teal">
-                Name
-              </FormLabel>
-              <Input
-                border="1px solid teal"
-                onChange={(e) => setname(e.target.value)}
-                type="text"
-              />
-              <FormLabel paddingTop={5} color="teal">
-                Image
-              </FormLabel>
-              <Input
-                border="1px solid teal"
-                onChange={(e) => setimage(e.target.value)}
-                type="url"
-              />
-              <FormLabel paddingTop={5} color="teal">
-                Price
-              </FormLabel>
-              <Input
-                border="1px solid teal"
-                onChange={(e) => setprice(e.target.value)}
-                type="number"
-              />
-              <FormLabel paddingTop={5} color="teal">
-                Discount
-              </FormLabel>
-              <Input
-                border="1px solid teal"
-                onChange={(e) => setdiscount(e.target.value)}
-                type="text"
-              />
-              <FormLabel paddingTop={5} color="teal">
-                Product Category
-              </FormLabel>
-              <RadioGroup
-                color="teal"
-                onChange={(e) => setCategory(e)}
-                defaultValue="Itachi"
-              >
-                <HStack spacing="24px">
-                  <SimpleGrid columns={2}>
-                    <Radio value="Healthcare">Healthcare</Radio>
-                    <Radio value="Beuty">Beuty</Radio>
-                    <Radio value="Homecare">Homecare</Radio>
-                    <Radio value="Personal Care">Personal Care</Radio>
-                  </SimpleGrid>
-                </HStack>
-              </RadioGroup>
-              <Button color="white" backgroundColor="teal" margin="auto"  marginTop="10px"width="100%" onClick={postdata} type="submit">
-                Add Product
-              </Button>
-            </FormControl>
-          </Stack>
-        </div>
-      {/* ) : (
-        ""
-      )} */}
+              <HStack spacing="24px">
+                <SimpleGrid columns={2}>
+                  <Radio value="Healthcare">Healthcare</Radio>
+                  <Radio value="Beuty">Beuty</Radio>
+                  <Radio value="Homecare">Homecare</Radio>
+                  <Radio value="Personal Care">Personal Care</Radio>
+                </SimpleGrid>
+              </HStack>
+            </RadioGroup>
+            <Button
+              color="white"
+              backgroundColor="teal"
+              margin="auto"
+              marginTop="10px"
+              width="100%"
+              onClick={postdata}
+              type="submit"
+            >
+              Add Product
+            </Button>
+          </FormControl>
+        </Stack>
+      </div>
     </>
   );
 };

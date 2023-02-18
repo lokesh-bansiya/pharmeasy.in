@@ -10,4 +10,4 @@ const Image_box_second = () => {
     );
 };
 
-export {Image_box_second};
+export { Image_box_second };

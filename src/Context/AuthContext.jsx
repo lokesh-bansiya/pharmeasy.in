@@ -3,10 +3,10 @@ import { createContext, useEffect, useState } from "react";
 const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
+
   const [authState, setAuthState] = useState(false);
   const [formData, setFormData] = useState({});
   const [total, setTotal] = useState(0);
-
   const [isAuth, setIsAuth] = useState(false);
 
   const toggleAuth = () => {
@@ -19,7 +19,6 @@ const AuthProvider = ({ children }) => {
       setAuthState(true);
     }
   }, []);
-  console.log(children)
 
   return (
     <AuthContext.Provider
@@ -31,7 +30,7 @@ const AuthProvider = ({ children }) => {
         total,
         setTotal,
         toggleAuth,
-        isAuth
+        isAuth,
       }}
     >
       {children}

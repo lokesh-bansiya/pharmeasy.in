@@ -1,12 +1,9 @@
 import styles from "./OrderMedicines.module.css";
 import { Heading } from "@chakra-ui/react";
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { Box } from "@chakra-ui/react";
 import {
@@ -19,7 +16,6 @@ import {
 import Select from "react-select";
 import { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import axios from "axios";
 
 const options = [
   {
@@ -43,7 +39,6 @@ const options = [
     v2: "Beauty",
     label: "Pharmeasy Multivitamin",
   },
-  // { value: 'Dolo 650mg Stip Of 15 Tablets',v2:"Skin Care", label: 'Dolo 650mg Stip Of 15 Tablets' },
   {
     value: "Ecosprin 75mg Strip Of 14 Tablets",
     v2: "Sexual Wellness",
@@ -81,7 +76,6 @@ function NextArrow(props) {
         display: "block",
         color: "black",
         height: "2rem",
-        // marginRight: "1rem",
         background: "none",
         width: "2rem",
         zIndex: 50,
@@ -99,7 +93,6 @@ function PrevArrow(props) {
       style={{
         ...style,
         display: "block",
-        // marginLeft: "1rem",
         background: "none",
         color: "black",
         height: "2rem",

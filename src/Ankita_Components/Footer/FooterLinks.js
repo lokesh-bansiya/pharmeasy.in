@@ -1,136 +1,136 @@
-export const Company=[
+export const Company = [
     {
-        link:"About Us",
+        link: "About Us",
     },
     {
-        link:"Careers",
+        link: "Careers",
     },
     {
-        link:"Blog",
+        link: "Blog",
     },
     {
-        link:"Partner with PharmEasy",
+        link: "Partner with PharmEasy",
     },
     {
-        link:"Sell at PharmEasy",
+        link: "Sell at PharmEasy",
     }
 ]
 
-export const OurServices=[
+export const OurServices = [
     {
-        link:"Order Medicine"
+        link: "Order Medicine"
     },
     {
-        link:"Healthcare Products"
+        link: "Healthcare Products"
     },
     {
-        link:"Lab Tests"
-    },
-]
-
-
-export const Categories=[
-    {
-        link:"Covid Essentials"
-    },
-    {
-        link:"Personal Care"
-    },
-    {
-        link:"Health Food and Drinks"
-    },
-    {
-        link:"Beauty"
-    },
-    {
-        link:"Skin Care"
-    },
-    {
-        link:"Home Care"
-    },
-    {
-        link:"Ayurvedic Care"
-    },
-    {
-        link:"Sexual Wellness"
-    },
-    {
-        link:"Fitness & Supplements"
-    },
-    {
-        link:"Mother and Baby Care"
-    },
-  
-]
-
-export const NeedHelp=[
-    {
-        link:"Browse All Medicines"
-    },
-    {
-        link:"Browse All Molecules"
-    },
-    {
-        link:"Browse All Cities & Areas"
-    },
-    {
-        link:"Browse All Stores"
-    },
-    {
-        link:"FAQs"
+        link: "Lab Tests"
     },
 ]
 
-export const PolicyInfo=[
+
+export const Categories = [
     {
-        link:"Editorial Policy"
+        link: "Covid Essentials"
     },
     {
-        link:"Privacy Policy"
+        link: "Personal Care"
     },
     {
-        link:"Vulnerability Disclosure Policy"
+        link: "Health Food and Drinks"
     },
     {
-        link:"Terms and Conditions"
+        link: "Beauty"
     },
     {
-        link:"Customer Support Policy"
+        link: "Skin Care"
     },
     {
-        link:"Return Policy"
+        link: "Home Care"
+    },
+    {
+        link: "Ayurvedic Care"
+    },
+    {
+        link: "Sexual Wellness"
+    },
+    {
+        link: "Fitness & Supplements"
+    },
+    {
+        link: "Mother and Baby Care"
+    },
+
+]
+
+export const NeedHelp = [
+    {
+        link: "Browse All Medicines"
+    },
+    {
+        link: "Browse All Molecules"
+    },
+    {
+        link: "Browse All Cities & Areas"
+    },
+    {
+        link: "Browse All Stores"
+    },
+    {
+        link: "FAQs"
     },
 ]
 
-export const Partners=[
+export const PolicyInfo = [
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1440x0",
+        link: "Editorial Policy"
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1440x0",
+        link: "Privacy Policy"
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0",
+        link: "Vulnerability Disclosure Policy"
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1440x0",
+        link: "Terms and Conditions"
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1440x0",
+        link: "Customer Support Policy"
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1440x0",
+        link: "Return Policy"
+    },
+]
+
+export const Partners = [
+    {
+        img: "https://assets.pharmeasy.in/apothecary/images/gpay.png?dim=1440x0",
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1440x0",
+        img: "https://assets.pharmeasy.in/apothecary/images/paytm.png?dim=1440x0",
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1440x0",
+        img: "https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0",
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1440x0",
+        img: "https://assets.pharmeasy.in/apothecary/images/amazon.png?dim=1440x0",
     },
     {
-        img:"https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0",
+        img: "https://assets.pharmeasy.in/apothecary/images/mobikwik.png?dim=1440x0",
+    },
+    {
+        img: "https://assets.pharmeasy.in/apothecary/images/olamoney.png?dim=1440x0",
+    },
+    {
+        img: "https://assets.pharmeasy.in/apothecary/images/maestro.png?dim=1440x0",
+    },
+    {
+        img: "https://assets.pharmeasy.in/apothecary/images/mastercard.png?dim=1440x0",
+    },
+    {
+        img: "https://assets.pharmeasy.in/apothecary/images/visa.png?dim=1440x0",
+    },
+    {
+        img: "https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0",
     },
 ]

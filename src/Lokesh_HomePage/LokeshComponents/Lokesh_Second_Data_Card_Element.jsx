@@ -4,19 +4,19 @@ import { Lokesh_Second_Single_Card } from "./Lokesh_Second_Single_Card";
 const Lokesh_Second_Data_Card_Element = () => {
 
   return (
-      <div>
-        <div className="Lokesh_Second_Single_SinglePage_Element_grid">
-          { 
+    <div>
+      <div className="Lokesh_Second_Single_SinglePage_Element_grid">
+        {
           Lokesh_Second_Data.map((elem) => {
             return (
               <div key={elem.id}>
-                  <Lokesh_Second_Single_Card {...elem}/>
+                <Lokesh_Second_Single_Card {...elem} />
               </div>
             );
           })}
-        </div>
       </div>
-    );
+    </div>
+  );
 }
 
-export {Lokesh_Second_Data_Card_Element};
+export { Lokesh_Second_Data_Card_Element };

@@ -5,9 +5,10 @@ import v4 from "./images/v4.png";
 import v5 from "./images/v5.png";
 import v6 from "./images/v6.png";
 import v7 from "./images/v7.png";
-import { Image, Stack, Text, SimpleGrid, Box, Center } from "@chakra-ui/react";
+import { Image, Box, Center } from "@chakra-ui/react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
 export const AdminCarousel = () => {
   const responsive = {
     desktop: {
@@ -49,10 +50,10 @@ export const AdminCarousel = () => {
           <Box>
             <Image src={v1}></Image>
           </Box>
-         <Box>
+          <Box>
             <Image src={v3}></Image>
           </Box>
-       
+
           <Box>
             <Image src={v5}></Image>
           </Box>
@@ -67,7 +68,7 @@ export const AdminCarousel = () => {
           </Box>
           <Box>
             <Image src={v7}></Image>
-          </Box> 
+          </Box>
           {/* <Box>
             <Image src={d19}></Image>
           </Box>  */}

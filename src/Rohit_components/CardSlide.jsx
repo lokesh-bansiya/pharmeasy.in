@@ -1,7 +1,5 @@
 import "./cardslide.css"
-
 import Card from "./card";
-
 
 const CardSlide = ({data}) => {
   return (

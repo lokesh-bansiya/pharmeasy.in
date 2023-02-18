@@ -1,8 +1,6 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import { Image, Stack, Text, SimpleGrid, Box, Button } from "@chakra-ui/react";
 import { MiddleSection } from "./MiddleSection";
-import { AdminCarousel } from "./AdminCarousel";
 
 export default function Dashboard() {
   return (
@@ -14,8 +12,7 @@ export default function Dashboard() {
         marginleft="8em"
         marginright="8em"
       ></div>
-<Navbar/>
-      
+      <Navbar />
       <MiddleSection />
     </>
   );

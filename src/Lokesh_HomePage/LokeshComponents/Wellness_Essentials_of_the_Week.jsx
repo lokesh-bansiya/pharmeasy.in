@@ -78,4 +78,4 @@ const Wellness_Essentials_of_the_Week = () => {
     );
 };
 
-export {Wellness_Essentials_of_the_Week};
+export { Wellness_Essentials_of_the_Week };

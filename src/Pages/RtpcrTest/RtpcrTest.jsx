@@ -1,36 +1,37 @@
 import React from "react";
-import { Box, Button, Text } from "@chakra-ui/react";
-
-import { Link } from "react-router-dom";
-
-
+import { Box, Text } from "@chakra-ui/react";
 import "./RtpcrTest.css";
 import styles from "./RtpcrTest.module.css";
 
-
-
- const RtpcrTest = () => {
+const RtpcrTest = () => {
   return (
     <Box>
       <Box className="rtpcrtest_div">
-      <Box className="textname_test">Test Details</Box>
+        <Box className="textname_test">Test Details</Box>
         <Box className="all_detail_Box">
           <Box className="box1">
             <Box className="covidrtpcr_div">
-                <Box className="img_content">
-              <img
-                src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg"
-                alt="labs"
-              />
-              <Text className="rtpcr_text">Covid-19 RTPCR (Coronavirus SARS - CoV2)</Text>
+              <Box className="img_content">
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg"
+                  alt="labs"
+                />
+                <Text className="rtpcr_text">
+                  Covid-19 RTPCR (Coronavirus SARS - CoV2)
+                </Text>
               </Box>
               <Text className="certifiedlab">Available at 1 certified lab</Text>
-                <button className="sel_btn">Select</button>
+              <button className="sel_btn">Select</button>
             </Box>
 
             <Box className="warning_Box">
-                {/* <Box className="imgwarn"><img src={img1} alt="" /></Box> */}
-                <Text className="textwarn">The COVID-19 laboratory test can detect positive coronavirus cases. Any individual with symptoms like cough, high fever, shortness of breath, respiratory and breathing difficulties, and with a history of international travel or contact with Covid -19 +ve</Text>
+              <Text className="textwarn">
+                The COVID-19 laboratory test can detect positive coronavirus
+                cases. Any individual with symptoms like cough, high fever,
+                shortness of breath, respiratory and breathing difficulties, and
+                with a history of international travel or contact with Covid -19
+                +ve
+              </Text>
             </Box>
 
             <Box className="dis_req_div">
@@ -42,9 +43,15 @@ import styles from "./RtpcrTest.module.css";
               <Box className="testrequi">Affordable Packages</Box>
             </Box>
             <Box className="disbox">
-            The COVID-19 laboratory test can detect positive coronavirus cases. Any individual with symptoms like cough, high fever, shortness of breath, respiratory and breathing difficulties, and with a history of international travel or contact with Covid -19 positive cases, can book this test with prior consultation by General Physician. The result of this test will be informed to the relevant authorities as mandated by the government. Home sample collection will be done by an expert technician.
+              The COVID-19 laboratory test can detect positive coronavirus
+              cases. Any individual with symptoms like cough, high fever,
+              shortness of breath, respiratory and breathing difficulties, and
+              with a history of international travel or contact with Covid -19
+              positive cases, can book this test with prior consultation by
+              General Physician. The result of this test will be informed to the
+              relevant authorities as mandated by the government. Home sample
+              collection will be done by an expert technician.
             </Box>
-
           </Box>
           <Box className="box1">
             <Box className="selectyou">Please select a test to proceed</Box>
@@ -54,7 +61,6 @@ import styles from "./RtpcrTest.module.css";
           </Box>
         </Box>
       </Box>
-      {/* <Services/> */}
       <div className="appdiv">
         <div className={styles.bottom_2}>
           <div className={styles.bottom_21}>
@@ -97,4 +103,4 @@ import styles from "./RtpcrTest.module.css";
     </Box>
   );
 };
-export default RtpcrTest
+export default RtpcrTest;

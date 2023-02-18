@@ -1,13 +1,11 @@
 import "./Home_Styles/Lokesh_Second_Single_Card.css";
-import { useNavigate,Link } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
-const Lokesh_Second_Single_Card = ({...elem}) => {
-    const navigate=useNavigate()
-    const {id,img1,title,mrp,strike,discount} = elem;
-    const StoreAtLocalStorage=()=>{
-        localStorage.setItem("singleProductdata",JSON.stringify(elem));
-        // console.log(elem);
+const Lokesh_Second_Single_Card = ({ ...elem }) => {
+    const { id, img1, title, mrp, strike, discount } = elem;
+    const StoreAtLocalStorage = () => {
+        localStorage.setItem("singleProductdata", JSON.stringify(elem));
     }
 
     return (
@@ -24,4 +22,4 @@ const Lokesh_Second_Single_Card = ({...elem}) => {
     );
 }
 
-export {Lokesh_Second_Single_Card};
+export { Lokesh_Second_Single_Card };
