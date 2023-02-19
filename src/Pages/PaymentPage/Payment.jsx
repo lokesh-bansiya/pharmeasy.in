@@ -16,17 +16,13 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
-// import {
-//   Visa,
-//   AmazonTransparent,
-//   Googlepay,
-//   Mastercard,
-//   PaypalTransparent,
-// } from "react-pay-icons";
+// import { Visa,AmazonTransparent,Googlepay,Mastercard,PaypalTransparent} from "react-pay-icons";
+
 import { useNavigate } from "react-router-dom";
 
 export default function PaymentPage() {
   const navigate = useNavigate();
+
   const [showPassword, setShowPassword] = useState(false);
   const [otp, setotp] = useState(false);
   const [totalAmount, setTotalAmount] = useState(0);
@@ -35,6 +31,7 @@ export default function PaymentPage() {
 
   const OptSent = () => {
     setLoading(true);
+
     setTimeout(() => {
       setotp(true);
       setLoading(false);
@@ -49,7 +46,7 @@ export default function PaymentPage() {
 
   const orderConfirmed = () => {
     toast({
-      title: "Order Placed Successfully ,Thank You For the Shopping",
+      title: "Booking Successfully ,Thank You Choosing us",
       position: "top",
       isClosable: true,
       status: "success",
@@ -77,6 +74,7 @@ export default function PaymentPage() {
         <PaypalTransparent style={{ margin: 10, width: 100 }} />
         <Mastercard style={{ margin: 10, width: 100 }} /> */}
       </Box>
+
       <Heading>Payment</Heading>
       <Box width="50%">
         {!otp && (

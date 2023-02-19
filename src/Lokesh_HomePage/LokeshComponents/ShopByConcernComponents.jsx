@@ -39,4 +39,4 @@ const ShopByConcernComponents = () => {
     );
 }
 
-export { ShopByConcernComponents };
+export {ShopByConcernComponents};

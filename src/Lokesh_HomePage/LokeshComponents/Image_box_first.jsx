@@ -11,4 +11,4 @@ const Image_box_first = () => {
     );
 }
 
-export { Image_box_first };
+export {Image_box_first};

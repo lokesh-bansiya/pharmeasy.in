@@ -1,5 +1,4 @@
-export const Lokesh_Second_Data = [
-  {
+export const Lokesh_Second_Data = [{
     id: 19,
     img1: "https://cdn01.pharmeasy.in/dam/products_otc/D44788/cremaffin-trial-stick-pack-of-15ml-pack-of-5-mint-2-1651912372.jpg",
     title: "Cremaffin Trial Stick Pack Of 15ml (Pack Of 2)",

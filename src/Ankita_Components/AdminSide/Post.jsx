@@ -15,11 +15,10 @@ import { useState } from "react";
 import "./admin.css";
 import axios from "axios";
 import { useRef } from "react";
+import backend_url from "../../backendurl";
 
 export const PostRequest = ({ getdata }) => {
-  console.log(getdata);
   const toast = useToast();
-  const [count, setCount] = useState(10);
   const [name, setname] = useState("");
   const [image, setimage] = useState("");
   const [price, setprice] = useState("");
@@ -34,31 +33,33 @@ export const PostRequest = ({ getdata }) => {
     console.log("rhbff");
   };
 
-  const postdata = () => {
-    axios
-      .post("http://localhost:8080/posts", {
-        id: setCount((pre) => pre + 1),
-        name,
-        image,
-        price,
-        discount,
-        category,
-      })
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
+  const postdata = async () => {
+    try {
+      axios
+        .post(`${backend_url}/products`, {
+          img1: image,
+          title: name,
+          mrp: price,
+          strike: price - discount,
+          discount: discount,
+        })
+        .then(function (response) {
+          toast({
+            title: "Product has been added successfully in a database",
+            position: "top",
+            status: "success",
+          });
+
+          getdata();
+        });
+    } catch (err) {
+      toast({
+        title: "Error in adding Product",
+        status: "error",
+        position: "top",
+        isClosable: true,
       });
-
-    toast({
-      title: "Product has been added successfully in a database",
-      position: "top",
-      isClosable: true,
-      status: "success",
-    });
-
-    getdata();
+    }
   };
   return (
     <>
@@ -137,6 +138,9 @@ export const PostRequest = ({ getdata }) => {
           </FormControl>
         </Stack>
       </div>
+      {/* ) : (
+        ""
+      )} */}
     </>
   );
 };

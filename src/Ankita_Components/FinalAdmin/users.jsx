@@ -3,15 +3,15 @@ import {
   Table,
   Thead,
   Tbody,
+  Tfoot,
   Tr,
   Th,
   Td,
+  TableCaption,
   TableContainer,
   Stack
 } from "@chakra-ui/react";
 import { Navbar } from "./Navbar";
-
-
 export const Users = () => {
   const users = [
     {
@@ -67,32 +67,33 @@ export const Users = () => {
   ];
   return (
     <>
-      <Navbar />
-      <Stack marginLeft="8em" marginRight="8em" marginTop="2em">
-        user side page
-        <TableContainer>
-          <Table variant="striped" colorScheme="teal">
-            <Thead  >
-              <Tr fontSize={20} fontWeight='bold'>
-                <Th>id</Th>
-                <Th>Name</Th>
-                <Th>Email</Th>
-                <Th>Address</Th>
-              </Tr>
-            </Thead>
-            <Tbody>
-              {users.length > 0 && users.map((e, i) =>
-                <Tr key={i}>
-                  <Td>{i}</Td>
-                  <Td>{e.name}</Td>
-                  <Td>{e.email}</Td>
-                  <Td>{e.address}</Td>
-                </Tr>
-              )}
-            </Tbody>
-          </Table>
-        </TableContainer>
+<Navbar/>
+    <Stack marginLeft="8em" marginRight="8em" marginTop="2em">
+      user side page
+      <TableContainer>
+        <Table variant="striped" colorScheme="teal">
+          <Thead  >
+            <Tr fontSize={20} fontWeight= 'bold'>
+            <Th>id</Th>
+              <Th>Name</Th>
+              <Th>Email</Th>
+              <Th>Address</Th>
+            </Tr>
+          </Thead>
+          <Tbody>
+            {users.length > 0 && users.map((e,i) => 
+            <Tr key={i}>
+           <Td>{i}</Td>
+            <Td>{e.name}</Td>
+            <Td>{e.email}</Td>
+            <Td>{e.address}</Td>
+            </Tr>
+            )}
+            
+          </Tbody>
+        </Table>
+      </TableContainer>
       </Stack>
-    </>
+      </>
   );
 };

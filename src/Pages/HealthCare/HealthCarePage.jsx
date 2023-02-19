@@ -1,14 +1,15 @@
-import React from "react";
-import { Healthcare } from "../../Ankita_Components/Healthcare/Healthcare";
-import Footer from "../../Ankita_Components/Footer/Footer";
+import React from 'react'
+import { Healthcare } from '../../Ankita_Components/Healthcare/Healthcare'
+import Footer from '../../Ankita_Components/Footer/Footer'
 
 const HealthCarePage = () => {
   return (
     <div>
-      <Healthcare />
-      <Footer />
-    </div>
-  );
-};
+      <Healthcare/>
+      <Footer/>
 
-export default HealthCarePage;
+    </div>
+  )
+}
+
+export default HealthCarePage

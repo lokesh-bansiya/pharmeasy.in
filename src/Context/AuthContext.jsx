@@ -3,24 +3,35 @@ import { createContext, useEffect, useState } from "react";
 const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
+  const [authState, setAuthState] = useState(false);
+  const [formData, setFormData] = useState({});
+  const [total, setTotal] = useState(0);
 
-  var isAuth = localStorage.getItem("logIn");
+  const [isAuth, setIsAuth] = useState(false);
 
   const toggleAuth = () => {
-    localStorage.setItem("isAuth", false);
+    setIsAuth(!isAuth);
   };
 
   useEffect(() => {
     const logIn = localStorage.getItem("logIn");
     if (logIn) {
-      isAuth = localStorage.getItem("logIn");
+      setAuthState(true);
     }
   }, []);
+
 
   return (
     <AuthContext.Provider
       value={{
-       isAuth
+        authState,
+        setAuthState,
+        formData,
+        setFormData,
+        total,
+        setTotal,
+        toggleAuth,
+        isAuth
       }}
     >
       {children}

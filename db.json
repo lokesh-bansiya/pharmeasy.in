@@ -1,5 +1,14 @@
 {
-  "posts": [],
+  "posts": [
+    {
+      "name": "dolo 50",
+      "image": "hsjjs",
+      "price": "52737",
+      "discount": "66",
+      "category": "Healthcare",
+      "id": 1
+    }
+  ],
   "homePage": {
     "homePageData": {
       "logo": "https://cdn.pharmeasy.in/cms/lp_logo.png",

@@ -29,6 +29,7 @@ import {
   useDisclosure,
   useToast,
   SimpleGrid,
+  Toast,
 } from "@chakra-ui/react";
 import { ArrowDownIcon, SearchIcon } from "@chakra-ui/icons";
 import SelectPin from "./selectPin";
@@ -43,7 +44,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
 import { useEffect } from "react";
 import { useMediaQuery } from '@chakra-ui/react'
-import DrawerLogin from "./DrawerLogin";
+import backend_url from "../../backendurl";
+
 
 
 const options = [
@@ -170,8 +172,13 @@ const customStyles = {
   }),
 };
 const Navbar = () => {
+   const { isAuth, toggleAuth } = useContext(AuthContext);
   const [val, setVal] = useState("");
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [credentials, setCredentials] = useState({
+    "Email":"",
+    "Password":""
+  });
   const btnRef = useRef();
   const [otpState, setOtpState] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -179,22 +186,189 @@ const Navbar = () => {
   const [otp2, setOtp2] = useState(0);
   const [otp3, setOtp3] = useState(0);
   const [otp4, setOtp4] = useState(0);
+  const [emptyError, setEmptyError] = useState(false);
   const toast = useToast();
   const value = useContext(AuthContext);
   const navigate = useNavigate();
+
+
+
+  const HandleInputChange=(e)=>{
+let {value,name}=e.target
+
+
+setCredentials({
+  ...credentials,[name]:value
+})
+  }
+
+  const HangleLogin=async()=>{
+if(!credentials.Email|| !credentials.Password)return toast({
+  title:"Fill The Credentials Correctly",
+  status:"error",
+  position:"top"
+})
+
+setLoading(true)
+try{
+  
+  axios.post(`${backend_url}/login`,credentials).then((res)=>{
+  const {token,Type}=res.data
+  if(token){
+    if(Type=="USER"){
+      toast({
+        title:"LOGIN SUCCESSFULL",
+        status:"success",
+        position:"top"
+      })
+
+    }else if(Type=="ADMIN"){
+      toast({
+        title:"WELCOME ADMIN",
+        status:"success",
+        position:"top"
+      })
+
+toggleAuth()
+      navigate("/adminpage")
+
+    }
+
+    onClose();
+    localStorage.setItem("logIn", true);
+   
+    value.setAuthState(true);
+
+
+
+  }else{
+    toast({
+      title:res.data.msg,
+      status:"error",
+      position:"top"
+    })
+  }
+  setLoading(false);
+  })
+  
+  }catch(err){
+  toast({
+    position:"top",
+    status:"error",
+    title:"Something Went Wrong Please Try Again"
+  })
+  }
+  
+  setLoading(false)
+ }
+
+
+
+  const  handleSignup=async()=>{
+
+    if(!credentials.Email|| !credentials.Password)return toast({
+      title:"Fill The Credentials Correctly",
+      status:"error",
+      position:"top"
+    })
+try{
+setLoading(true)
+axios.post(`${backend_url}/signup`,credentials).then((res)=>{
+const responseMessage=res.data.msg
+toast({position:"top",
+title:responseMessage,
+status:"info"
+})
+setLoading(false);
+})
+
+}catch(err){
+toast({
+  position:"top",
+  status:"error",
+  title:"Something Went Wrong Please Try Again"
+})
+}
+
+setLoading(false)
+      
+  }
+  
+
+
 
   const handleChange = (values) => {
     setVal(values);
   };
 
-  var details = value;
-  console.log("details:", details);
+  var details = val.value;
 
   useEffect(() => {
-    if (details.isAuth) {
-      navigate(`/`);
+    if (details) {
+      navigate(`/productdetails/${details}`);
     }
   }, [details]);
+
+
+
+
+  // const sendMail = async (mail) => {
+  //   setLoading(true);
+  //   try {
+  //     const res = await axios.post(
+  //       "https://pharmeasylion.herokuapp.com/api/user/mail",
+  //       {
+  //         mail,
+  //       }
+  //     );
+  //     localStorage.setItem("user_id", res.data.id);
+  //     setOtpState(true);
+  //     setLoading(false);
+  //   } catch (err) {
+  //     setOtpState(false);
+  //     setLoading(false);
+  //     toast({
+  //       title: `Try Again`,
+  //       status: "error",
+  //       isClosable: true,
+  //     });
+  //   }
+  // };
+  
+  
+  const sendOtp = async () => {
+    setLoading(true);
+    try {
+      let otp = "";
+      otp += otp1 + otp2 + otp3 + otp4;
+      const user_id = localStorage.getItem("user_id");
+      const res = await axios.post(
+        `https://pharmeasylion.herokuapp.com/api/user/verify/${user_id}`,
+        { otp: Number(otp) }
+      );
+      if (res.data === "your otp has been verified!") {
+        onClose();
+        setLoading(false);
+        localStorage.setItem("logIn", true);
+        value.setAuthState(true);
+        toast({
+          title: `User LoggedIn successfully`,
+          status: "success",
+          isClosable: true,
+        });
+      }
+    } catch (err) {
+      toast({
+        title: `Otp is Wrong`,
+        status: "error",
+        isClosable: true,
+      });
+      setLoading(false);
+    }
+  };
+
+
+
 
   return (
     <div className={styles.container}>
@@ -215,6 +389,9 @@ const Navbar = () => {
        
           <InputGroup size="lg" width={"75%"}>
             <InputLeftAddon children={<SelectPin />} />
+
+           
+
             <div className={styles.serach}
               style={{ width: "40rem", height: "3rem", objectFit: "contain" }}
             >
@@ -256,18 +433,20 @@ const Navbar = () => {
               <p style={{ color: "white" }}>Offers</p>
             </Flex>
             <Flex className={styles.sidebar}>
+              <RiUser5Fill
+                style={{ marginTop: "0.2rem", marginRight: "0.4rem" }}
+                size="23px"
+              />
               <Menu>
                 <MenuButton
                   style={{ cursor: "pointer", color: "white" }}
                   ref={btnRef}
+                  onClick={onOpen}
                 >
+                  {value.authState ? "Profile" : "Login / Signup"}
                 </MenuButton>
-                { localStorage.getItem("isAuth") == true ? (
+                {value.authState ? (
                   <>
-                  <MenuButton style={{ cursor: "pointer", color: "white" }}
-                  ref={btnRef}>
-                     Profile
-                  </MenuButton>
                     <MenuList>
                       <MenuItem
                         onClick={() => navigate("/myorders")}
@@ -321,8 +500,8 @@ const Navbar = () => {
                       <MenuItem
                         onClick={() => {
                           localStorage.removeItem("user_id");
-                          localStorage.setItem("logIn",false);
-                          localStorage.setItem("isAuth", false);
+                          localStorage.removeItem("logIn");
+                          value.setAuthState(false);
                         }}
                         color="black"
                         _hover={{ color: "teal.500" }}
@@ -332,7 +511,140 @@ const Navbar = () => {
                     </MenuList>
                   </>
                 ) : (
-                  <DrawerLogin/>
+                  <Drawer
+                    isOpen={isOpen}
+                    placement="right"
+                    onClose={onClose}
+                    size="sm"
+                    finalFocusRef={btnRef}
+                  >
+                    <DrawerOverlay />
+                    <DrawerContent>
+                      <DrawerCloseButton />
+                      <DrawerHeader>
+                        <Flex bg="teal.500" height="100px">
+                          <Box marginTop={"1rem"} marginLeft={"1rem"}>
+                            <Image
+                              src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
+                              alt=""
+                              width={"10rem"}
+                            />
+                          </Box>
+
+                          <Box marginTop={"1rem"} marginLeft={"3rem"}>
+                            <Image
+                              src="	https://assets.pharmeasy.in/web-assets/dist/1fe1322a.svg"
+                              alt=""
+                              width={"8rem"}
+                            />
+                          </Box>
+                        </Flex>
+                      </DrawerHeader>
+                      {otpState ? (
+                        <DrawerBody>
+                          <Heading size="md">Enter OTP sent to </Heading>
+                          <br />
+
+                          <HStack>
+                            <PinInput size="lg">
+                              <PinInputField
+                                onChange={(e) => setOtp1(e.target.value)}
+                              />
+                              <PinInputField
+                                onChange={(e) => setOtp2(e.target.value)}
+                              />
+                              <PinInputField
+                                onChange={(e) => setOtp3(e.target.value)}
+                              />
+                              <PinInputField
+                                onChange={(e) => setOtp4(e.target.value)}
+                              />
+                            </PinInput>
+                          </HStack>
+                          <Button
+                            onClick={() => {
+                              let otp = "";
+                              otp += otp1 + otp2 + otp3 + otp4;
+                              if (otp !== "") {
+                                sendOtp();
+                              } else {
+                                setEmptyError(true);
+                              }
+                            }}
+                            isLoading={loading ? true : false}
+                            colorScheme="teal"
+                            size="lg"
+                            style={{ marginTop: "1rem" }}
+                            width={"25rem"}
+                          >
+                            Submit
+                          </Button>
+                        </DrawerBody>
+                      ) : (
+                        <DrawerBody>
+                          <Heading size="md"> Quick Login / Register</Heading>
+                          <br />
+                          
+      
+                            <Input
+                              type="email"
+                              name="Email"
+                              required
+                              isInvalid={emptyError ? true : false}
+                              errorBorderColor={emptyError ? "red.300" : ""}
+                              placeholder="Email"
+                              onChange={HandleInputChange}
+                            />
+
+                            <Input
+                            mt="5%"
+                              type="password"
+                              name="Password"
+                              required
+                              isInvalid={emptyError ? true : false}
+                              errorBorderColor={emptyError ? "red.300" : ""}
+                              placeholder="Password"
+                              onChange={HandleInputChange}
+                            />
+
+                          
+                          <br />
+                          <Button
+                            mt="5%"
+                            onClick={ 
+                             
+                              HangleLogin
+                            }
+                            isLoading={loading}
+                            colorScheme="teal"
+                            size="lg"
+                            width={"25rem"}
+                          >
+                           LOGIN
+                          </Button>
+                          <br />
+                          <br />
+
+                           <Text color="gray" >
+                            New On Website? <span
+                            onClick={handleSignup}
+                            
+                            style={{color:"blue",cursor:"pointer",textDecoration:"underline",fontWeight:"bolder"}}>SignUP</span>
+                           </Text>
+
+                           <br />
+                          <br />
+
+                          <Text fontSize="sm" color="teal.500">
+                            By clicking continue, you agree with our Privacy
+                            Policy
+                          </Text>
+
+                         
+                        </DrawerBody>
+                      )}
+                    </DrawerContent>
+                  </Drawer>
                 )}
               </Menu>
             </Flex>

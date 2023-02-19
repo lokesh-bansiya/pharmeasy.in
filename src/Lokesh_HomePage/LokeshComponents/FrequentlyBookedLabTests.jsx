@@ -79,5 +79,6 @@ const FrequentlyBookedLabTests = () => {
     );
 }
 
-export { FrequentlyBookedLabTests };
-
+export {FrequentlyBookedLabTests};
+        
+   

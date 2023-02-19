@@ -1,11 +1,19 @@
-#card-img-div {
+
+#card-img-div{
+ 
   width: "150px";
-  border-radius: "5px";
+ border-radius: "5px";
   display: "flex";
   justify-content: "center";
   align-items: "center";
 }
 
-#card-img-div:hover {
-  scale: 105%;
-}
+
+
+#card-img-div:hover{
+scale: 105%;
+
+
+   
+
+};
