@@ -23,7 +23,6 @@ const options = [
     v2: "Ayurvedic Care",
     label: "Ecosprin 75mg Strip Of 14 Tablets",
   },
-  // { value: 'Dolo 650mg Stip Of 15 Tablets',v2:"Fitness & Supplements", label: 'Dolo 650mg Stip Of 15 Tablets' },
   {
     value: "Evion 400mg Strip of 10 Capsules",
     v2: "Health Food and Drinks",
@@ -172,14 +171,14 @@ const OrderMedicines = () => {
             </div>
           </div>
           <div className={styles.right_div}>
-            <div>
+            {/* <div>
               <img
                 className={styles.imgicon}
                 src="https://cdn.iconscout.com/icon/free/png-256/prescription-1690639-1434867.png"
                 alt=""
               />
               <p>Order via Prescription</p>
-            </div>
+            </div> */}
             <div>
               <img
                 className={styles.imgicon2}

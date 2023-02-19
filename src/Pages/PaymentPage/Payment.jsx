@@ -16,13 +16,13 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
-import {
-  Visa,
-  AmazonTransparent,
-  Googlepay,
-  Mastercard,
-  PaypalTransparent,
-} from "react-pay-icons";
+// import {
+//   Visa,
+//   AmazonTransparent,
+//   Googlepay,
+//   Mastercard,
+//   PaypalTransparent,
+// } from "react-pay-icons";
 import { useNavigate } from "react-router-dom";
 
 export default function PaymentPage() {
@@ -71,11 +71,11 @@ export default function PaymentPage() {
         justifyContent="center"
         alignItems="center"
       >
-        <Visa style={{ margin: 10, width: 100 }} />
+        {/* <Visa style={{ margin: 10, width: 100 }} />
         <AmazonTransparent style={{ margin: 10, width: 100 }} />
         <Googlepay style={{ margin: 10, width: 100 }} />
         <PaypalTransparent style={{ margin: 10, width: 100 }} />
-        <Mastercard style={{ margin: 10, width: 100 }} />
+        <Mastercard style={{ margin: 10, width: 100 }} /> */}
       </Box>
       <Heading>Payment</Heading>
       <Box width="50%">
