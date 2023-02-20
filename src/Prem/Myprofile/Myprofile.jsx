@@ -192,7 +192,11 @@ const Myprofile = () => {
             size="md"
           />
 
-          <Box display="flex" ><Button colorScheme="telegram" margin="auto" >Update profile</Button></Box>
+          <Box display="flex">
+            <Button colorScheme="telegram" margin="auto">
+              Update profile
+            </Button>
+          </Box>
         </Box>
       </Box>
       <Divider m={"5rem"} />

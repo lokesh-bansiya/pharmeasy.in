@@ -1,20 +1,9 @@
-
-import Mainroutes from './Routes/Mainroutes';
-
+import Mainroutes from "./Routes/Mainroutes";
 
 function App() {
   return (
-
-
-
     <div className="App">
-     
-     <Mainroutes/>
-     {/* <Healthcare/> */}
-     
-   
-     
-
+      <Mainroutes />
     </div>
   );
 }

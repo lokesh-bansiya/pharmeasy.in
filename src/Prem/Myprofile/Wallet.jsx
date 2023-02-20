@@ -135,7 +135,15 @@ const Wallet = () => {
             </Heading>
           </Box>
         </Box>
-        <Box ml="5%" w={"70%"} h="auto" boxShadow="lg" p="6" rounded="md" bg="white">
+        <Box
+          ml="5%"
+          w={"70%"}
+          h="auto"
+          boxShadow="lg"
+          p="6"
+          rounded="md"
+          bg="white"
+        >
           <Box w={"100%"} h="4rem" m="0.2rem auto auto auto" display={"flex"}>
             <Text
               fontSize={"1xl"}

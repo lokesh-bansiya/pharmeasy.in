@@ -1,38 +1,116 @@
-#products-parent-div{
-
-display: grid;
-gap: 10px;
-grid-template-columns: repeat(4,1fr);
-color: black;
-background-color:white
-
-
+.conatainerForProductPage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
 
- #Products-filter-section{
+.conatainerForProductPage > section:first-child {
+  height: 100vh;
+  width: 20%;
+  font-size: larger;
+  position: sticky;
+  top: 10%;
+  padding: 3%;
+}
 
-    height:100%;
-       width: 20%;
-    font-size: larger;
-   position:fixed;
-    
- }
- /* static
-relative
-fixed
-absolute
-sticky */
+.conatainerForProductPage > section:last-child {
+  width: 80%;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+}
 
+#products-parent-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5%;
+  color: black;
+  background-color: white;
+}
 
+#filterbox {
+  padding-top: 10px;
+  padding-top: 15%;
+}
 
-@media only screen and (max-width: 600px) {
-    #products-parent-div{
-        grid-template-columns: repeat(2,1fr);
-        padding-left: 0%;
-    
-    }
-
-    #Products-filter-section{
-        display: none;
-    }
+@media all and (min-width: 1181px) and (max-width: 1200px) {
+  #products-parent-div {
+    grid-template-columns: repeat(3, 1fr);
   }
+
+  .conatainerForProductPage {
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media all and (min-width: 751px) and (max-width: 1180px) {
+  #products-parent-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .conatainerForProductPage {
+    margin: auto;
+    padding-top: 17%;
+  }
+}
+
+@media all and (min-width: 551px) and (max-width: 750px) {
+  .conatainerForProductPage > section:last-child {
+    width: 90%;
+    margin: auto;
+  }
+  #products-parent-div {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .conatainerForProductPage > section:first-child {
+    display: none;
+  }
+
+  .conatainerForProductPage {
+    margin: auto;
+    padding-top: 17%;
+  }
+}
+
+@media all and (min-width: 421px) and (max-width: 550px) {
+  #products-parent-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conatainerForProductPage > section:first-child {
+    display: none;
+  }
+  .conatainerForProductPage > section:last-child {
+    width: 90%;
+    margin: auto;
+  }
+
+  .conatainerForProductPage {
+    margin: auto;
+    padding-top: 17%;
+  }
+}
+
+@media all and (min-width: 301px) and (max-width: 420px) {
+  #products-parent-div {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 7px;
+  }
+
+  .conatainerForProductPage > section:first-child {
+    display: none;
+  }
+  .conatainerForProductPage > section:last-child {
+    width: 90%;
+    margin: auto;
+  }
+
+  .conatainerForProductPage {
+    margin: auto;
+    padding-top: 20%;
+  }
+}
