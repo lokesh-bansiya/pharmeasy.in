@@ -3,15 +3,10 @@ import { useNavigate,Link } from "react-router-dom";
 
 
 const Lokesh_Second_Single_Card = ({...elem}) => {
-    const navigate=useNavigate()
     const {id,img1,title,mrp,strike,discount} = elem;
-    const StoreAtLocalStorage=()=>{
-        localStorage.setItem("singleProductdata",JSON.stringify(elem));
-        // console.log(elem);
-    }
 
     return (
-        <Link to="/singleproduct"><div onClick={StoreAtLocalStorage} key={id} className="Lokesh_Second_Single_Car_Item">
+        <Link to="/product"><div key={id} className="Lokesh_Second_Single_Car_Item">
             <div>
                 <img src={img1} alt={title} />
             </div>

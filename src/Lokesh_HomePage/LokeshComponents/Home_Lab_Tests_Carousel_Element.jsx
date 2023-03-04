@@ -69,7 +69,7 @@ export default function LabTestCarouselElements() {
                 color="white"
                 bg="black"
                 transition="all 0.4s ease"
-                _hover={{ bg: "#9e6f29",border: "4px solid red", color: "white", transition: "all 0.4s ease", boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.12) 0px 2px 16px 0px" }}
+                _hover={{ bg: "#9e6f29", border: "4px solid red", color: "white", transition: "all 0.4s ease", boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.12) 0px 2px 16px 0px" }}
                 _active={{}}
                 onClick={() => slider?.slickPrev()}>
                 <BsArrowLeftShort fontSize="35px" />
@@ -90,20 +90,20 @@ export default function LabTestCarouselElements() {
                 color="white"
                 bg="black"
                 h="35px"
-                _hover={{ bg: "#9e6f29",border: "4px solid red", color: "white", transition: "all 0.4s ease", boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.12) 0px 2px 16px 0px" }}
+                _hover={{ bg: "#9e6f29", border: "4px solid red", color: "white", transition: "all 0.4s ease", boxShadow: "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.12) 0px 2px 16px 0px" }}
                 _active={{}}
                 onClick={() => slider?.slickNext()}>
                 <BsArrowRightShort fontSize="35px" />
             </IconButton>
             {/* Slider */}
             <Slider  {...settings} ref={(slider) => setSlider(slider)}>
-                <Stack 
-                    textAlign="left" 
-                    ml="5%" 
-                    h="14rem" 
-                    paddingLeft="0" 
+                <Stack
+                    textAlign="left"
+                    ml="5%"
+                    h="14rem"
+                    paddingLeft="0"
                     display="flex"
-                    >
+                >
                     <Flex w="100%" align="center">
                         <GrAchievement />
                         <Text px="5px"> 100+ Certified Labs</Text>
