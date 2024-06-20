@@ -20,7 +20,6 @@ const AuthProvider = ({ children }) => {
     }
   }, []);
 
-
   return (
     <AuthContext.Provider
       value={{
@@ -31,7 +30,7 @@ const AuthProvider = ({ children }) => {
         total,
         setTotal,
         toggleAuth,
-        isAuth
+        isAuth,
       }}
     >
       {children}

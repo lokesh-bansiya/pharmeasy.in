@@ -1,15 +1,15 @@
-.mainNavbarBox{
+.mainNavbarBox {
     display: none;
 }
 
-.PharmEasy_Navbar_container{
+.PharmEasy_Navbar_container {
     border: 1px solid black;
     display: none;
 }
 
 
-@media all and (min-width: 801px) and (max-width: 1180px){
-    .PharmEasy_Navbar_container{
+@media all and (min-width: 801px) and (max-width: 1180px) {
+    .PharmEasy_Navbar_container {
         position: fixed;
         display: block;
         width: 100%;
@@ -17,59 +17,60 @@
         background-color: teal;
         z-index: 100;
     }
-    .PharmEasy_Navbar_Top-section{
+
+    .PharmEasy_Navbar_Top-section {
         display: flex;
         justify-content: start;
         height: fit-content;
     }
 
-    .PharmEasy_Navbar_Top-section  div:first-child{
+    .PharmEasy_Navbar_Top-section div:first-child {
         display: flex;
         width: 20%;
         justify-content: center;
         align-items: center;
     }
 
-    .image_logo > img{
+    .image_logo>img {
         width: 70%;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child{
-         display: flex;
-         width: fit-content;
-         background-color: rgb(193, 220, 228);
-         height: 50px;
-         margin-top: 1%;
-         margin-bottom: 1%;
-         border-radius: 5px;
+    .PharmEasy_Navbar_Top-section div:last-child {
+        display: flex;
+        width: fit-content;
+        background-color: rgb(193, 220, 228);
+        height: 50px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border-radius: 5px;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child input{
+    .PharmEasy_Navbar_Top-section div:last-child input {
         height: 100%;
         width: 500px;
         padding-left: 5%;
         border-radius: 5px;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child div:first-child{
+    .PharmEasy_Navbar_Top-section div:last-child div:first-child {
         width: 30%;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child div:last-child{
+    .PharmEasy_Navbar_Top-section div:last-child div:last-child {
         height: auto;
         font-size: 250%;
         margin: 1%;
         width: fit-content;
     }
 
-    .PharmEasy_Navbar_grid{
+    .PharmEasy_Navbar_grid {
         display: grid;
         margin: 1%;
         gap: 2%;
-        grid-template-columns: repeat(7,1fr);
+        grid-template-columns: repeat(7, 1fr);
     }
 
-    .PharmEasy_Navbar_grid div{
+    .PharmEasy_Navbar_grid div {
         font-weight: 500;
         font-size: 100%;
         color: white;
@@ -79,20 +80,22 @@
         display: flex;
         justify-content: right;
     }
-    .fa-shopping-cart{
+
+    .fa-shopping-cart {
         font-size: 25px;
         margin-right: 5%;
         color: rgb(85, 6, 6);
     }
-    .fa-sign-in{
+
+    .fa-sign-in {
         font-size: 15px;
         color: black;
     }
 
-}    
+}
 
-@media all and (min-width: 651px) and (max-width: 800px){
-    .PharmEasy_Navbar_container{
+@media all and (min-width: 651px) and (max-width: 800px) {
+    .PharmEasy_Navbar_container {
         z-index: 100;
         display: block;
         position: fixed;
@@ -100,60 +103,60 @@
         margin-bottom: 10%;
     }
 
-    .PharmEasy_Navbar_Top-section{
+    .PharmEasy_Navbar_Top-section {
         display: flex;
         justify-content: start;
         height: fit-content;
     }
 
-    .PharmEasy_Navbar_Top-section  div:first-child{
+    .PharmEasy_Navbar_Top-section div:first-child {
         display: flex;
         width: 25%;
         justify-content: center;
         align-items: center;
     }
 
-    .image_logo > img{
+    .image_logo>img {
         width: 70%;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child{
-         display: flex;
-         width: fit-content;
-         background-color: rgb(193, 220, 228);
-         height: 40px;
-         margin-top: 1%;
-         margin-bottom: 1%;
-         border-radius: 5px;
+    .PharmEasy_Navbar_Top-section div:last-child {
+        display: flex;
+        width: fit-content;
+        background-color: rgb(193, 220, 228);
+        height: 40px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border-radius: 5px;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child input{
+    .PharmEasy_Navbar_Top-section div:last-child input {
         height: 100%;
         width: 350px;
         padding-left: 5%;
         border-radius: 5px;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child div:first-child{
+    .PharmEasy_Navbar_Top-section div:last-child div:first-child {
         width: 30%;
     }
 
-    .PharmEasy_Navbar_Top-section  div:last-child div:last-child{
+    .PharmEasy_Navbar_Top-section div:last-child div:last-child {
         height: auto;
         font-size: 200%;
         margin: 1%;
         width: fit-content;
     }
 
-    
-    .PharmEasy_Navbar_grid{
+
+    .PharmEasy_Navbar_grid {
         display: grid;
         margin: 1%;
         gap: 1%;
-        grid-template-columns: repeat(7,1fr);
+        grid-template-columns: repeat(7, 1fr);
     }
 
-    .PharmEasy_Navbar_grid div{
+    .PharmEasy_Navbar_grid div {
         font-weight: 500;
         font-size: 90%;
         color: white;
@@ -163,25 +166,27 @@
         display: flex;
         justify-content: right;
     }
-    .fa-shopping-cart{
+
+    .fa-shopping-cart {
         font-size: 25px;
         margin-right: 5%;
         color: rgb(85, 6, 6);
     }
-    .fa-sign-in{
+
+    .fa-sign-in {
         font-size: 15px;
         color: black;
     }
 
-}    
+}
 
 
-@media all and (min-width: 280px) and (max-width: 650px){
-    .PharmEasy_Navbar_container{
+@media all and (min-width: 280px) and (max-width: 650px) {
+    .PharmEasy_Navbar_container {
         display: none;
     }
 
-    .mainNavbarBox{
+    .mainNavbarBox {
         z-index: 10;
         display: flex;
         width: 100%;
@@ -191,7 +196,7 @@
         position: fixed;
     }
 
-    .burgerNav{
+    .burgerNav {
         width: 100%;
         height: 5em;
         background-color: teal;
@@ -199,20 +204,20 @@
         border-bottom: 1px solid white;
         justify-content: space-between;
         padding: 1em;
-    
+
     }
 
-    .navlogo{
+    .navlogo {
         display: flex;
         width: 95%;
         height: 50px;
     }
 
-    .navlogo > img {
+    .navlogo>img {
         width: 95%;
     }
 
-    .navinside1{
+    .navinside1 {
         width: 100%;
         margin-right: 0%;
         margin-top: 3%;
@@ -222,11 +227,11 @@
         font-weight: bold;
     }
 
-    .navinside1  div > img {
+    .navinside1 div>img {
         width: 80%;
     }
 
-    .burger-menu{
+    .burger-menu {
         height: 97%;
         width: 4em;
         display: flex;
@@ -237,14 +242,14 @@
         z-index: 10;
     }
 
-    .burger-bar{
+    .burger-bar {
         width: 2.5em;
         height: 0.4em;
         background-color: rgb(224, 238, 237);
         border-radius: 0.5em;
     }
 
-    .menu{
+    .menu {
         width: 100%;
         background-color: teal;
         position: absolute;
@@ -252,7 +257,7 @@
         z-index: 1;
     }
 
-    .navinside{
+    .navinside {
         display: grid;
         width: 55%;
         height: auto;
@@ -263,7 +268,7 @@
         z-index: 1;
     }
 
-    .navbarContainer{
+    .navbarContainer {
         z-index: 1;
         background-color: teal;
         position: relative;
@@ -277,7 +282,7 @@
     }
 
 
-    .navinside  div{
+    .navinside div {
         color: white;
         display: block;
         padding-top: 2%;
@@ -290,7 +295,7 @@
         border-bottom-left-radius: 10px;
     }
 
-    .navinside1{
+    .navinside1 {
         display: flex;
         width: 40%;
         justify-content: center;
@@ -298,43 +303,45 @@
         margin-top: 5%;
         z-index: 1;
     }
-    .navinside1 div{
+
+    .navinside1 div {
         color: white;
     }
 
-    .navinside  div > a,
-    .navinside1  div > a {
+    .navinside div>a,
+    .navinside1 div>a {
         text-decoration: none;
         color: white;
     }
 
-    .hidden{
+    .hidden {
         display: none;
         height: 0px;
     }
 
-    .visible{
+    .visible {
         display: inherit;
         height: 100vh;
     }
 
-    .burger-bar.clicked:nth-child(1){
-        transform: rotate(45deg)  translate(0.75em, 1.25em);
+    .burger-bar.clicked:nth-child(1) {
+        transform: rotate(45deg) translate(0.75em, 1.25em);
         transition: ease-out 0.5s;
     }
 
-    .burger-bar.clicked:nth-child(2){
+    .burger-bar.clicked:nth-child(2) {
         transform: scale(0.1);
         transition: ease-out 0.5s;
     }
-    .burger-bar.clicked:nth-child(3){
-        transform: rotate(135deg)  translate(-0.5em, 1em);
+
+    .burger-bar.clicked:nth-child(3) {
+        transform: rotate(135deg) translate(-0.5em, 1em);
         transition: ease-out 0.5s;
     }
 
-    .burger-bar.unclicked{
+    .burger-bar.unclicked {
         transform: rotate(0) translate(0);
         transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
     }
-     
+
 }

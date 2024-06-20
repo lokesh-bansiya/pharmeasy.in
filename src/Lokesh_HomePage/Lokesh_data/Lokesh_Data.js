@@ -1,4 +1,5 @@
-export const HomeData = [{
+export const HomeData = [
+  {
     id: 13,
     img1: "https://cdn01.pharmeasy.in/dam/products_otc/P91768/accusure-pulse-oximeter-2-1654234170.jpg",
     title: "Accusure Pulse Oximeter",
@@ -45,4 +46,5 @@ export const HomeData = [{
     mrp: 94,
     strike: 120,
     discount: 21,
-  }]
+  },
+];

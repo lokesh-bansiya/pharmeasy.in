@@ -6,10 +6,7 @@ const Home_Single_Card = ({ ...elem }) => {
 
   return (
     <Link to="/product">
-      <div
-        key={id}
-        className="Home_Single_Card_Item"
-      >
+      <div key={id} className="Home_Single_Card_Item">
         <div>
           <img src={img1} alt={title} />
         </div>

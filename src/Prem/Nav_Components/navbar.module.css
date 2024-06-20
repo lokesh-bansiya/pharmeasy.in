@@ -1,23 +1,24 @@
 .container {
- 
+
   display: flex;
   height: 120px;
   background-color: #10847e;
   box-sizing: border-box;
   padding: 16px 16px;
   gap: 6%;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
+  /* Safari */
   position: sticky;
   top: 0;
   z-index: 200;
 }
 
 
-.container > div:nth-child(1) {
+.container>div:nth-child(1) {
   flex: 1;
 }
 
-.container > div:nth-child(2) {
+.container>div:nth-child(2) {
   flex: 6;
 }
 
@@ -29,21 +30,21 @@
   font-size: 17px;
 }
 
-.tabContainer > div {
+.tabContainer>div {
   display: flex;
   gap: 20px;
 }
 
-.tabContainer > div:nth-child(1) a:hover {
+.tabContainer>div:nth-child(1) a:hover {
   text-decoration: underline;
   color: white;
 }
 
 
 
-  
-  @media all and (min-width: 200px) and (max-width: 1180px){
-    .container {
-      display: none;
-    }
+
+@media all and (min-width: 200px) and (max-width: 1180px) {
+  .container {
+    display: none;
   }
+}

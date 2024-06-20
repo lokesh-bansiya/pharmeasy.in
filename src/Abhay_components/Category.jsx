@@ -21,21 +21,17 @@
 
 //   return (
 //     <Box display='flex'  overflowX= "scroll">
-     
 
-   
 //       {data?.data?.map((item) => (
 
 //         <Box key={item.id} ml='20px'   >
 //           <img src={item.avatar} alt="image" />
 //           <p>{item.first_name}</p>
 
-
 //           {/* <Link to={`/category/${item.id}`}>more</Link> */}
 //         </Box>
 //       ))}
 
-    
 //     </Box>
 //   );
 // }

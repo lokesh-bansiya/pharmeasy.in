@@ -1,28 +1,30 @@
-.descriptionWrapper{
+.descriptionWrapper {
     max-width: 90%;
     margin: auto;
     color: #4f585e;
 }
 
-.descLinks{
+.descLinks {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
     align-items: center;
 }
 
-.descLinks>h3{
+.descLinks>h3 {
     font-size: 100%;
     font-weight: 700;
     display: inline-block;
     margin-right: 5px;
 }
-.descLinks > span > a{
+
+.descLinks>span>a {
     font-size: 100%;
     color: #2e2f2f;
     line-height: 1.5;
 }
-.descLinks>span a:hover{
+
+.descLinks>span a:hover {
     text-decoration: none;
     color: #10847e;
 }
@@ -32,18 +34,21 @@
     color: #4f585e;
     margin: 0 5px;
 }
+
 .descLinks>span:last-child:after {
     content: "";
     color: #4f585e;
     margin: 0 5px;
 }
-.descH1{
+
+.descH1 {
     font-weight: 700;
     font-size: 14px;
     margin-top: 25px;
     margin-bottom: 10px;
 }
-.descH2{
+
+.descH2 {
     font-size: 12px;
     margin: 10px 0;
     font-weight: 700;
@@ -53,16 +58,17 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.TextDiv{
-    text-align:left;
+
+.TextDiv {
+    text-align: left;
     font-size: 12px;
 }
 
-.TextDiv a{
+.TextDiv a {
     color: #10847e;
     text-decoration: underline;
 }
 
-.descP{
+.descP {
     font-size: 100%;
 }

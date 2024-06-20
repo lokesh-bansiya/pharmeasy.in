@@ -19,7 +19,7 @@
   margin-top: 2rem;
 }
 
-.right_div > div {
+.right_div>div {
   display: flex;
   color: rgb(79, 88, 94);
   border: 1px solid rgb(238, 233, 233);
@@ -30,7 +30,7 @@
   font-weight: 600;
 }
 
-.right_div > div > p {
+.right_div>div>p {
   padding: 0.7rem;
 }
 
@@ -63,22 +63,22 @@
   margin-left: 10rem;
 }
 
-.bottom_21 > img {
+.bottom_21>img {
   width: 35vh;
 }
 
-.bottom_22 > div {
+.bottom_22>div {
   display: flex;
   gap: 20px;
 }
 
-.bottom_22 > p {
+.bottom_22>p {
   font-size: 25px;
   margin-bottom: 2rem;
   margin-left: 0.5rem;
 }
 
-.bottom_22 > div > div > a > img {
+.bottom_22>div>div>a>img {
   width: 25vh;
 }
 
@@ -97,7 +97,7 @@
   font-size: 0.8rem;
 }
 
-.flex_1 > p {
+.flex_1>p {
   color: white;
 }
 
@@ -107,7 +107,7 @@
   gap: 1px;
 }
 
-.select > input {
+.select>input {
   width: 25vh;
   text-align: center;
   border-radius: 4px;
@@ -152,7 +152,7 @@ h4 {
   width: 8vh;
 }
 
-.slider_2_div > img {
+.slider_2_div>img {
   padding: 0.5rem;
   width: 165vh;
   height: 40vh;

@@ -5,17 +5,19 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import backend_url from "../backendurl";
 
-const SingleProduct = ({ cartvalue, setcartvalue }) => {
+const SingleProduct = ({ cartValue, setCartValue }) => {
   const toast = useToast();
   const [product, setproductdata] = useState({});
   const [brand, setbrand] = useState([]);
   const { ID } = useParams();
+  console.log({ backend_url, ID });
 
-  async function getsingleProduct() {
+  async function getSingleProduct() {
     axios.get(`${backend_url}/products/${ID}`).then((res) => {
-      setproductdata(res.data);
-
-      let temp = product.title.split(" ");
+      console.log("result", res?.data);
+      setproductdata(res?.data);
+      let temp = product.title;
+      // let temp = product.title.split(" ");
       setbrand(temp);
     });
   }
@@ -26,16 +28,16 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
       left: 100,
       behavior: "smooth",
     });
-
-    getsingleProduct();
+    getSingleProduct();
   }, []);
-  const { img1, title, mrp, strike, discount } = product;
+
+  console.log({ product });
 
   const addToCart = () => {
-    const cartdata = JSON.parse(localStorage.getItem("cartData")) || [];
-    const ispresent = () => {
-      for (let x = 0; x < cartdata.length; x++) {
-        if (cartdata[x].title == product.title) {
+    const cartData = JSON.parse(localStorage.getItem("cartData")) || [];
+    const isPresent = () => {
+      for (let x = 0; x < cartData.length; x++) {
+        if (cartData[x].title == product.title) {
           return true;
         }
       }
@@ -43,7 +45,7 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
       return false;
     };
 
-    if (ispresent()) {
+    if (isPresent()) {
       toast({
         title: "Product is already in cart",
         position: "top",
@@ -53,8 +55,8 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
       return;
     }
 
-    let newdata = [...cartdata, product];
-    localStorage.setItem("cartData", JSON.stringify(newdata));
+    let newData = [...cartData, product];
+    localStorage.setItem("cartData", JSON.stringify(newData));
 
     toast({
       title: "Item added to cart",
@@ -62,7 +64,7 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
       isClosable: true,
       status: "success",
     });
-    setcartvalue(cartvalue + 1);
+    setCartValue(cartValue + 1);
   };
 
   return (
@@ -74,7 +76,6 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
         style={{
           boxShadow:
             "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
-
           borderRadius: "5px",
           display: "flex",
           justifyContent: "center",
@@ -83,7 +84,7 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
       >
         <Image
           style={{ maxWidth: "90%", maxHeight: "90%" }}
-          src={img1}
+          src={product?.img1 || "img"}
           alt=""
         />
       </Box>
@@ -98,23 +99,29 @@ const SingleProduct = ({ cartvalue, setcartvalue }) => {
             fontWeight="bold"
             color="gray.600"
           >
-            {title}
+            {product?.title ? product?.title : "-"}
           </Text>
 
-          <Text color="teal.600" mt="4" fontSize="xl">
-            Visit {brand[0]} store
-          </Text>
+          {brand?.length > 0 ? (
+            <Text color="teal.600" mt="4" fontSize="xl">
+              Visit {brand[0]} store
+            </Text>
+          ) : (
+            ""
+          )}
 
           <div>
             <div
               style={{ display: "flex", fontSize: "20px", marginTop: "20px" }}
             >
               <p style={{ color: "grey" }}>
-                MRP <s>{`₹${strike}`}</s>
+                MRP <s>{`₹${product?.strike || "-"}`}</s>
               </p>
               <p style={{ fontWeight: "bold", marginLeft: "10px" }}>
-                ₹{mrp} &nbsp;{" "}
-                <span style={{ color: "red" }}>{`${discount}% OFF`}</span>
+                ₹{product?.mrp || "-"} &nbsp;{" "}
+                <span style={{ color: "red" }}>{`${
+                  product?.discount || "0"
+                }% OFF`}</span>
               </p>
             </div>
 

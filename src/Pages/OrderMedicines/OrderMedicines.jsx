@@ -137,7 +137,7 @@ const OrderMedicines = () => {
 
   return (
     <div>
-      <div style={{width: "90", margin:"auto"}} className={styles.maindiv}>
+      <div style={{ width: "90", margin: "auto" }} className={styles.maindiv}>
         <div className={styles.top_1}>
           <p>Home {">"} Order Medicines Online</p>
         </div>

@@ -17,6 +17,7 @@ import { BsFacebook, BsInstagram, BsYoutube, BsTwitter } from "react-icons/bs";
 //   Mastercard,
 //   PaypalTransparent,
 // } from "react-pay-icons";
+
 const Footer = () => {
   return (
     //  addfooter logic

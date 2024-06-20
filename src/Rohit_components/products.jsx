@@ -36,15 +36,13 @@ const Products = ({ data }) => {
         return a.mrp - b.mrp;
       });
       setproductdata([...updateddata]);
-    }
-    else if (value == "decending") {
+    } else if (value == "decending") {
       let map = [...productdata];
       let updateddata = map.sort((a, b) => {
         return b.mrp - a.mrp;
       });
       setproductdata([...updateddata]);
-    }
-    else {
+    } else {
       setproductdata(data);
     }
   };
@@ -145,7 +143,6 @@ const Products = ({ data }) => {
             Below 800
           </Checkbox>
           <hr />
-
         </div>
       </section>
 

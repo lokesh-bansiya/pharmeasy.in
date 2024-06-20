@@ -1,4 +1,3 @@
-
 import styles from "./navbar.module.css";
 import {
   Box,
@@ -43,10 +42,8 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
 import { useEffect } from "react";
-import { useMediaQuery } from '@chakra-ui/react'
+import { useMediaQuery } from "@chakra-ui/react";
 import backend_url from "../../backendurl";
-
-
 
 const options = [
   {
@@ -172,12 +169,12 @@ const customStyles = {
   }),
 };
 const Navbar = () => {
-   const { isAuth, toggleAuth } = useContext(AuthContext);
+  const { isAuth, toggleAuth } = useContext(AuthContext);
   const [val, setVal] = useState("");
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [credentials, setCredentials] = useState({
-    "Email":"",
-    "Password":""
+    Email: "",
+    Password: "",
   });
   const btnRef = useRef();
   const [otpState, setOtpState] = useState(false);
@@ -191,111 +188,93 @@ const Navbar = () => {
   const value = useContext(AuthContext);
   const navigate = useNavigate();
 
+  const HandleInputChange = (e) => {
+    let { value, name } = e.target;
 
+    setCredentials({
+      ...credentials,
+      [name]: value,
+    });
+  };
 
-  const HandleInputChange=(e)=>{
-let {value,name}=e.target
+  const HangleLogin = async () => {
+    if (!credentials.Email || !credentials.Password)
+      return toast({
+        title: "Fill The Credentials Correctly",
+        status: "error",
+        position: "top",
+      });
 
+    setLoading(true);
+    try {
+      axios.post(`${backend_url}/login`, credentials).then((res) => {
+        const { token, Type } = res.data;
+        if (token) {
+          if (Type == "USER") {
+            toast({
+              title: "LOGIN SUCCESSFULL",
+              status: "success",
+              position: "top",
+            });
+          } else if (Type == "ADMIN") {
+            toast({
+              title: "WELCOME ADMIN",
+              status: "success",
+              position: "top",
+            });
 
-setCredentials({
-  ...credentials,[name]:value
-})
-  }
+            toggleAuth();
+            navigate("/adminpage");
+          }
 
-  const HangleLogin=async()=>{
-if(!credentials.Email|| !credentials.Password)return toast({
-  title:"Fill The Credentials Correctly",
-  status:"error",
-  position:"top"
-})
+          onClose();
+          localStorage.setItem("logIn", true);
 
-setLoading(true)
-try{
-  
-  axios.post(`${backend_url}/login`,credentials).then((res)=>{
-  const {token,Type}=res.data
-  if(token){
-    if(Type=="USER"){
+          value.setAuthState(true);
+        } else {
+          toast({
+            title: res.data.msg,
+            status: "error",
+            position: "top",
+          });
+        }
+        setLoading(false);
+      });
+    } catch (err) {
       toast({
-        title:"LOGIN SUCCESSFULL",
-        status:"success",
-        position:"top"
-      })
-
-    }else if(Type=="ADMIN"){
-      toast({
-        title:"WELCOME ADMIN",
-        status:"success",
-        position:"top"
-      })
-
-toggleAuth()
-      navigate("/adminpage")
-
+        position: "top",
+        status: "error",
+        title: "Something Went Wrong Please Try Again",
+      });
     }
 
-    onClose();
-    localStorage.setItem("logIn", true);
-   
-    value.setAuthState(true);
+    setLoading(false);
+  };
 
+  const handleSignup = async () => {
+    if (!credentials.Email || !credentials.Password)
+      return toast({
+        title: "Fill The Credentials Correctly",
+        status: "error",
+        position: "top",
+      });
+    try {
+      setLoading(true);
+      axios.post(`${backend_url}/signup`, credentials).then((res) => {
+        const responseMessage = res.data.msg;
+        toast({ position: "top", title: responseMessage, status: "info" });
+        setLoading(false);
+      });
+    } catch (err) {
+      toast({
+        position: "top",
+        status: "error",
+        title: "Something Went Wrong Please Try Again",
+      });
+    }
 
-
-  }else{
-    toast({
-      title:res.data.msg,
-      status:"error",
-      position:"top"
-    })
-  }
-  setLoading(false);
-  })
-  
-  }catch(err){
-  toast({
-    position:"top",
-    status:"error",
-    title:"Something Went Wrong Please Try Again"
-  })
-  }
-  
-  setLoading(false)
- }
-
-
-
-  const  handleSignup=async()=>{
-
-    if(!credentials.Email|| !credentials.Password)return toast({
-      title:"Fill The Credentials Correctly",
-      status:"error",
-      position:"top"
-    })
-try{
-setLoading(true)
-axios.post(`${backend_url}/signup`,credentials).then((res)=>{
-const responseMessage=res.data.msg
-toast({position:"top",
-title:responseMessage,
-status:"info"
-})
-setLoading(false);
-})
-
-}catch(err){
-toast({
-  position:"top",
-  status:"error",
-  title:"Something Went Wrong Please Try Again"
-})
-}
-
-setLoading(false)
-      
-  }
-  
-
-
+    setLoading(false);
+  };
 
   const handleChange = (values) => {
     setVal(values);
@@ -308,9 +287,6 @@ setLoading(false)
       navigate(`/productdetails/${details}`);
     }
   }, [details]);
-
-
-
 
   // const sendMail = async (mail) => {
   //   setLoading(true);
@@ -334,8 +310,7 @@ setLoading(false)
   //     });
   //   }
   // };
-  
-  
+
   const sendOtp = async () => {
     setLoading(true);
     try {
@@ -367,9 +342,6 @@ setLoading(false)
     }
   };
 
-
-
-
   return (
     <div className={styles.container}>
       <div
@@ -377,22 +349,20 @@ setLoading(false)
           navigate("/");
         }}
       >
-        <img className=""
+        <img
+          className=""
           src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
           alt=""
         />
       </div>
 
       <div>
-       
         <div>
-       
           <InputGroup size="lg" width={"75%"}>
             <InputLeftAddon children={<SelectPin />} />
 
-           
-
-            <div className={styles.serach}
+            <div
+              className={styles.serach}
               style={{ width: "40rem", height: "3rem", objectFit: "contain" }}
             >
               <Select
@@ -404,14 +374,14 @@ setLoading(false)
                 styles={customStyles}
               />
             </div>
-           
+
             <InputRightAddon children={<SearchIcon h={8} color="gray.500" />} />
           </InputGroup>
         </div>
-      
+
         <div className={styles.tabContainer}>
-          <div >
-            <div >
+          <div>
+            <div>
               <Link to="/orderMed">Order Medicines</Link>
             </div>
             <div>
@@ -584,63 +554,64 @@ setLoading(false)
                         <DrawerBody>
                           <Heading size="md"> Quick Login / Register</Heading>
                           <br />
-                          
-      
-                            <Input
-                              type="email"
-                              name="Email"
-                              required
-                              isInvalid={emptyError ? true : false}
-                              errorBorderColor={emptyError ? "red.300" : ""}
-                              placeholder="Email"
-                              onChange={HandleInputChange}
-                            />
 
-                            <Input
+                          <Input
+                            type="email"
+                            name="Email"
+                            required
+                            isInvalid={emptyError ? true : false}
+                            errorBorderColor={emptyError ? "red.300" : ""}
+                            placeholder="Email"
+                            onChange={HandleInputChange}
+                          />
+
+                          <Input
                             mt="5%"
-                              type="password"
-                              name="Password"
-                              required
-                              isInvalid={emptyError ? true : false}
-                              errorBorderColor={emptyError ? "red.300" : ""}
-                              placeholder="Password"
-                              onChange={HandleInputChange}
-                            />
+                            type="password"
+                            name="Password"
+                            required
+                            isInvalid={emptyError ? true : false}
+                            errorBorderColor={emptyError ? "red.300" : ""}
+                            placeholder="Password"
+                            onChange={HandleInputChange}
+                          />
 
-                          
                           <br />
                           <Button
                             mt="5%"
-                            onClick={ 
-                             
-                              HangleLogin
-                            }
+                            onClick={HangleLogin}
                             isLoading={loading}
                             colorScheme="teal"
                             size="lg"
                             width={"25rem"}
                           >
-                           LOGIN
+                            LOGIN
                           </Button>
                           <br />
                           <br />
 
-                           <Text color="gray" >
-                            New On Website? <span
-                            onClick={handleSignup}
-                            
-                            style={{color:"blue",cursor:"pointer",textDecoration:"underline",fontWeight:"bolder"}}>SignUP</span>
-                           </Text>
+                          <Text color="gray">
+                            New On Website?{" "}
+                            <span
+                              onClick={handleSignup}
+                              style={{
+                                color: "blue",
+                                cursor: "pointer",
+                                textDecoration: "underline",
+                                fontWeight: "bolder",
+                              }}
+                            >
+                              SignUP
+                            </span>
+                          </Text>
 
-                           <br />
+                          <br />
                           <br />
 
                           <Text fontSize="sm" color="teal.500">
                             By clicking continue, you agree with our Privacy
                             Policy
                           </Text>
-
-                         
                         </DrawerBody>
                       )}
                     </DrawerContent>
@@ -651,7 +622,7 @@ setLoading(false)
 
             <Flex className={styles.sidebar}>
               <HiShoppingCart
-                style={{ marginTop: "0.2rem", marginRight: "0.4rem", }}
+                style={{ marginTop: "0.2rem", marginRight: "0.4rem" }}
                 size="23px"
               />
               <Link to="/cart">Cart</Link>

@@ -3136,7 +3136,8 @@ const homecareProducts = [
     ancestor: ["All Categories", "Home Care"],
     brand: "N/A",
     instock: true,
-  },{
+  },
+  {
     id: 1,
     title:
       "Revital H Women Multivitamin With Calcium, Zinc, Ginseng For Immunity, Strong Bones & Energy 30 Tablets",
